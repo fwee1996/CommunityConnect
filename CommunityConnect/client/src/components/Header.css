@@ -1,0 +1,53 @@
+header {
+    width: 100%; /* Full width */
+    position: fixed; /* Keeps it at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Make sure it stays above other content */
+    background-color: #4056a1; /* Background color for the header */
+ 
+}
+
+nav {
+    display: flex; /* Flexbox for alignment */
+    justify-content: space-between; /* Space out items */
+    align-items: center; /* Center items vertically */
+    padding: 1rem; /* Add some padding */
+    width: 100%; /* Full width */
+    justify-content: space-between;
+}
+
+nav a{
+color: white;
+font-size: large;
+}
+
+nav .right-hand-side{
+gap:20px
+}
+/* link */
+nav .right-hand-side a {
+    margin-right: 20px; /* Space between links */
+    color: white; /* Ensure the text color is white */
+    text-decoration: none; /* Remove underline from links */
+}
+.notification-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.notification-bubble {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 0.2em;
+    font-size: 0.8em;
+}
+
+#logo{
+    /* border: 2px solid black; */
+}
+

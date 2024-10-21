@@ -1,0 +1,90 @@
+.event-details {
+    margin-top: 100px;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100vw !important;
+    height: 100vh !important;
+  }
+
+ 
+.event-image img{
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
+    width: 50% !important; 
+    height: 60vh !important;  
+} 
+.event-image {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid coral; */
+    background-color: rgba(175, 181, 186, 0.249);
+  }
+
+.event-details-content{
+margin: 1% 10% 0 10%;
+padding-bottom: 50px;
+font-family: Arial, sans-serif; /* Set a uniform font for all text */
+  }
+
+
+  .event-date {
+    font-size: 1.3em; /* Slightly larger than the title */
+    font-weight: 600; /* Bold but not as bold as the title */
+    margin: 0.5em 0; /* Add some margin for spacing */
+    color: rgba(57, 65, 72, 0.816); 
+}
+
+.event-title {
+    font-size: 3em; /* Title size */
+    font-weight: bold; /* Title boldness */
+    margin-bottom: 0.5em; /* Space below the title */
+}
+
+.event-description {
+    font-size: 1.2em; /* Slightly larger than normal text */
+    font-weight: 400; /* Regular boldness */
+    font-style: italic; /* Italics for emphasis */
+    margin: 1em 0; /* Space around the description */
+}
+
+.label {
+    font-size: 1.2em; /* Larger size for labels */
+    font-weight: 600; /* Boldness for labels */
+    margin-top: 0.5em; /* Space above labels */
+}
+
+.input-field {
+    font-size: 1.1em; /* Regular size for inputs */
+    padding: 0.3em; /* Padding for better touch targets */
+    width: 100%; /* Full width for inputs */
+    margin-bottom: 1em; /* Space below inputs */
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #6c757de1; /* Gray color for text */
+}
+
+strong {
+    font-weight: bold; /* Ensure strong tags are bold */
+}
+
+#volunteer-list{
+margin-right: 20px;
+}
+
+#contact-form-list{
+    margin-right: 20px;
+}
+
+#get-involved{
+margin-right: 20px;
+}
+
+#contact-organizer{
+    margin-right: 20px;
+}
+
+.button-margin {
+    margin-right: 30px; /* Adjust this value as needed */
+}

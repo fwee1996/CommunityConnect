@@ -1,0 +1,67 @@
+.user-form-background{
+    width: 100vw;
+    height: max-content;
+    background-color: #c5cbe33a;
+    padding: 50px;
+
+}
+
+.form-content {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+  width: 500px;
+}
+
+.profile-pic-container {
+    padding-right: 20px; /* Space between image and form fields */
+}
+
+.form-fields-container {
+    /* border: 2px solid coral; */
+    padding: 20px;
+    margin-left: 20px;
+}
+
+/* the label and input width */
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+    width:25em
+}
+
+button {
+    margin-top: 10px; /* Space above buttons */
+    padding: 10px 15px; /* Button padding */
+}
+
+/* for top margin between form and navbar */
+.container{
+    /* border: 2px solid coral; */
+    margin-top: 100px;
+}
+
+/* actual form */
+.user-form-background .form {
+    margin-top:100px;
+    padding: 30px; /* Add padding for overall space */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 15px rgba(91, 79, 79, 0.586); /* Subtle shadow */
+
+    max-width: 800px; /* Maximum width for the form */
+    width:100%;
+   padding-left:50px;
+    max-width: 60em; /* Optional max width */
+    width: 100%; /* Set desired width */
+    margin: 0 auto; /* Center the form */
+}
+
+
+
+
+.user-form-background h1{
+margin-left: 0;
+padding-right: 30px;
+}
+
+
+

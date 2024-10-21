@@ -1,0 +1,40 @@
+notification files: header, app view, notification folder, notification service, index.html
+
+
+
+header.jsx:    // const [notifications, setNotifications] = useState([]);
+    // const [hasNewNotifications, setHasNewNotifications] = useState(false);
+
+    // // Fetch notifications when the component mounts
+    // useEffect(() => {
+    //     const fetchNotifications = async () => {
+    //         const userProfile = JSON.parse(localStorage.getItem("userProfile")); // Fetch user profile from localStorage
+
+    //         if (!userProfile || !userProfile.id) {
+    //             // If there's no userProfile or no user id, return early
+    //             console.error("User profile not found in localStorage.");
+    //             return;
+    //         }
+
+    //         const userId = parseInt(userProfile.id, 10); // Ensure userId is a valid number
+
+    //         try {
+    //             const response = await fetch(`/api/notification/${userId}`); // Fetch notifications for the user
+    //             if (response.ok) {
+    //                 const data = await response.json(); // Parse the notifications
+    //                 setNotifications(data);
+
+    //                 // Check if there are any unread notifications
+    //                 setHasNewNotifications(data.some(notification => !notification.isRead));
+    //             } else {
+    //                 console.error("Failed to fetch notifications: ", response.statusText);
+    //             }
+    //         } catch (error) {
+    //             console.error("Error fetching notifications:", error);
+    //         }
+    //     };
+
+    //     if (isLoggedIn) {
+    //         fetchNotifications(); // Fetch notifications only if the user is logged in
+    //     }
+    // }, [isLoggedIn]); // Fetch notifications when `isLoggedIn` changes

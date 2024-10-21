@@ -1,0 +1,101 @@
+/* .event-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.event-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 200px;
+    transition: transform 0.2s;
+}
+
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+.event-details {
+    padding: 20px;
+} */
+
+
+
+
+
+
+/* Event.css */
+
+/* Individual event card styles */
+.event {
+    border-radius: 10px; /* Rounded corners */
+    width: 400px; /* Full width */
+    height: 400px; /* Let the height be dynamic */
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    overflow: hidden; /* Hide overflow */
+    transition: box-shadow 0.1s ease; /* Smooth hover transition */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Column layout */
+}
+
+.event:hover {
+    box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.5); /* Deeper shadow on hover */
+    cursor: pointer;
+}
+
+.eventImage {
+    height: 200px; /* Fixed height for the image */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-size: cover; /* Cover the area */
+}
+
+/* Event details section styles */
+.eventDetails {
+    /* height: 200px; Fixed height for the image */
+    padding: 10px; /* Padding around event details */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Column layout */
+    background-color: white;
+height:200px
+}
+
+/* Event name styles */
+.eventDetails h3 {
+    font-family: 'Montserrat', sans-serif; /* Use Montserrat for headings */
+    font-size: 1.5em; /* Heading size */
+    margin: 0; /* No margin */
+    color: #333; /* Darker text for readability */
+}
+
+/* Event metadata styles */
+.eventMeta {
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    margin-top: 10px; /* Space above metadata */
+    color: #666; /* Lighter text for metadata */
+
+}
+
+/* Metadata item styles */
+.eventMeta div {
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-top: 10px;
+}
+
+/* Icon styles */
+.eventMeta i {
+    margin-right: 5px; /* Spacing between icon and text */
+    color: #007BFF; /* Primary color for icons */
+}
+
+/* Organizer image styles */
+.organizerImage {
+    width: 25px; /* Fixed width for organizer image */
+    height: 25px; /* Fixed height for organizer image */
+    border-radius: 50%; /* Circle image */
+    margin-right: 10px; /* Spacing */
+}

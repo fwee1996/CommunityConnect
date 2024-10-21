@@ -1,0 +1,39 @@
+
+/* Specific styles for event cards */
+.event-card {
+    border: 1px solid #ccc; /* Border for event card */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Padding for card content */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.2s; /* Transition for hover effect */
+}
+
+
+
+/* Additional styles for filtering and layout can be added here */
+/* Icon styles */
+.event-card i {
+    margin-right: 5px; /* Spacing between icon and text */
+    color: #007BFF; /* Primary color for icons */
+}
+
+.eventImageContainer {
+    width: 100%; /* Adjust to fit your layout */
+    height: 200px; /* Set a fixed height */
+    overflow: hidden; /* Hide overflow to maintain aspect ratio */
+    border-radius: 8px; /* Optional: round the corners */
+}
+
+.event-image {
+    width: 100%; /* Make the image take the full width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the container while maintaining aspect ratio */
+}
+.my-events-label{
+font-size: 35px;
+align-self: flex-start;
+margin-left: 40px;
+margin-bottom: 50px;
+margin-top: 50px;
+}
+

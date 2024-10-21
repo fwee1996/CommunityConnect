@@ -1,0 +1,43 @@
+.volunteer-form-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+    color: #333; /* Default text color */
+    /* margin-top: 100px;  */
+/* 
+    padding: 20px; */
+}
+
+.comment-container{
+    font-size: 1.5em;
+    display: flex;
+flex-direction: column;
+margin-bottom: 20px;
+}
+
+.volunteer-form-btn-container{
+display: flex;
+justify-content: center;
+gap:30px
+}
+
+.volunteer-form-container h1,h3{
+    display: flex;
+justify-content: center;
+}
+
+.volunteer-form-container h1{
+    color:#4056a1;
+}
+
+.volunteer-form-container h3{
+    color:#5b5f6f;
+}
+
+.volunteer-form-container h2,h6{
+    color:#0044fff4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,525 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CommunityConnect.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CommunityConnect.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\20230203050015_file_63dd3d9f93c6e_63dd3dc258c7d.avif",
+      "PackagePath": "staticwebassets\\uploads\\20230203050015_file_63dd3d9f93c6e_63dd3dc258c7d.avif"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\ArtforImpactExhibition.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ArtforImpactExhibition.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\Ashville.png",
+      "PackagePath": "staticwebassets\\uploads\\Ashville.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\BakeforaCause.png",
+      "PackagePath": "staticwebassets\\uploads\\BakeforaCause.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\BooksforBrighterFuturesFair.jpg",
+      "PackagePath": "staticwebassets\\uploads\\BooksforBrighterFuturesFair.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\CleanUpCrewforFloodRelief_enhanced.jpg",
+      "PackagePath": "staticwebassets\\uploads\\CleanUpCrewforFloodRelief_enhanced.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\CoatsforComfort.png",
+      "PackagePath": "staticwebassets\\uploads\\CoatsforComfort.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\CodeQuestforTeens_enhanced.jpg",
+      "PackagePath": "staticwebassets\\uploads\\CodeQuestforTeens_enhanced.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\CommunityArtProject.jpg",
+      "PackagePath": "staticwebassets\\uploads\\CommunityArtProject.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\CommunityFeast_enhanced.jpg",
+      "PackagePath": "staticwebassets\\uploads\\CommunityFeast_enhanced.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\CommunityWellnessFair_enhanced.jpg",
+      "PackagePath": "staticwebassets\\uploads\\CommunityWellnessFair_enhanced.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\CultureConnectFestival.png",
+      "PackagePath": "staticwebassets\\uploads\\CultureConnectFestival.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\EmergencyEssentialsPackingParty_enhanced.jpg",
+      "PackagePath": "staticwebassets\\uploads\\EmergencyEssentialsPackingParty_enhanced.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\FoodBank.jpg",
+      "PackagePath": "staticwebassets\\uploads\\FoodBank.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\HalloweenBakeSale.jpg",
+      "PackagePath": "staticwebassets\\uploads\\HalloweenBakeSale.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\HomelessAwarenessWeek.png",
+      "PackagePath": "staticwebassets\\uploads\\HomelessAwarenessWeek.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\MentalHealthAwarenessWalk.jpg",
+      "PackagePath": "staticwebassets\\uploads\\MentalHealthAwarenessWalk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\MentorMatch-Up.jpg",
+      "PackagePath": "staticwebassets\\uploads\\MentorMatch-Up.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\ParkBeautificationDay.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ParkBeautificationDay.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\Paw-tasticAdoptionFair.png",
+      "PackagePath": "staticwebassets\\uploads\\Paw-tasticAdoptionFair.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\Ready,Set,Prepare!_enhanced.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Ready,Set,Prepare!_enhanced.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\Seniors & Snacks Social.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Seniors & Snacks Social.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\SeniorsSnacksSocial.jpg",
+      "PackagePath": "staticwebassets\\uploads\\SeniorsSnacksSocial.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\SportsSpectacularDay.jpg",
+      "PackagePath": "staticwebassets\\uploads\\SportsSpectacularDay.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\SpringCleanDonateDay_enhanced.jpg",
+      "PackagePath": "staticwebassets\\uploads\\SpringCleanDonateDay_enhanced.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\SuppliesforSuccessDrive_enhanced.jpg",
+      "PackagePath": "staticwebassets\\uploads\\SuppliesforSuccessDrive_enhanced.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\ThanksgivingTogethernessFeast.png",
+      "PackagePath": "staticwebassets\\uploads\\ThanksgivingTogethernessFeast.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\ToylandChristmasDrive.png",
+      "PackagePath": "staticwebassets\\uploads\\ToylandChristmasDrive.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\WalkforthePlanet.jpg",
+      "PackagePath": "staticwebassets\\uploads\\WalkforthePlanet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\Wrap It Up for the Holidays.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Wrap It Up for the Holidays.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\Wrap.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Wrap.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\YouthLeadershipLaunchpad_enhanced.jpg",
+      "PackagePath": "staticwebassets\\uploads\\YouthLeadershipLaunchpad_enhanced.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\aaron.jpg",
+      "PackagePath": "staticwebassets\\uploads\\aaron.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\aien.png",
+      "PackagePath": "staticwebassets\\uploads\\aien.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\ava_enhanced.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ava_enhanced.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\chloe.jpg",
+      "PackagePath": "staticwebassets\\uploads\\chloe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\church1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\church1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\coalfield.png",
+      "PackagePath": "staticwebassets\\uploads\\coalfield.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\default.jpg",
+      "PackagePath": "staticwebassets\\uploads\\default.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\giftsOfHope.jpg",
+      "PackagePath": "staticwebassets\\uploads\\giftsOfHope.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\jack.png",
+      "PackagePath": "staticwebassets\\uploads\\jack.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\lasvegashumane.png",
+      "PackagePath": "staticwebassets\\uploads\\lasvegashumane.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\layla.jpg",
+      "PackagePath": "staticwebassets\\uploads\\layla.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\liam_enhanced.jpg",
+      "PackagePath": "staticwebassets\\uploads\\liam_enhanced.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\lily.jpg",
+      "PackagePath": "staticwebassets\\uploads\\lily.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\lucas.jpg",
+      "PackagePath": "staticwebassets\\uploads\\lucas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\mason.png",
+      "PackagePath": "staticwebassets\\uploads\\mason.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\maya.jpg",
+      "PackagePath": "staticwebassets\\uploads\\maya.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\mila.gif",
+      "PackagePath": "staticwebassets\\uploads\\mila.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\morris.png",
+      "PackagePath": "staticwebassets\\uploads\\morris.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\noah.jpg",
+      "PackagePath": "staticwebassets\\uploads\\noah.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\olivia.png",
+      "PackagePath": "staticwebassets\\uploads\\olivia.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\riley.jpg",
+      "PackagePath": "staticwebassets\\uploads\\riley.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\riley.png",
+      "PackagePath": "staticwebassets\\uploads\\riley.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\riley1.png",
+      "PackagePath": "staticwebassets\\uploads\\riley1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\sara.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sara.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\sara.png",
+      "PackagePath": "staticwebassets\\uploads\\sara.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\shelter.jpg",
+      "PackagePath": "staticwebassets\\uploads\\shelter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\sophia.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sophia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\veteran.jpg",
+      "PackagePath": "staticwebassets\\uploads\\veteran.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\westmoreland.jpg",
+      "PackagePath": "staticwebassets\\uploads\\westmoreland.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\wom.jpg",
+      "PackagePath": "staticwebassets\\uploads\\wom.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\wrap.png",
+      "PackagePath": "staticwebassets\\uploads\\wrap.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\xander.jpg",
+      "PackagePath": "staticwebassets\\uploads\\xander.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\wwwroot\\uploads\\zoe.jpg",
+      "PackagePath": "staticwebassets\\uploads\\zoe.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CommunityConnect.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CommunityConnect.props",
+      "PackagePath": "build\\CommunityConnect.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CommunityConnect.props",
+      "PackagePath": "buildMultiTargeting\\CommunityConnect.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CommunityConnect.props",
+      "PackagePath": "buildTransitive\\CommunityConnect.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

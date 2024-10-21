@@ -1,0 +1,61 @@
+.event-form-background{
+width:100vw;
+height:max-content;
+background-color: #d79922;
+padding:20px 20px;
+display: flex;
+justify-content: center;
+}
+.event-form-background .form {
+    margin-top:100px;
+    padding: 30px; /* Add padding for overall space */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 15px rgba(91, 79, 79, 0.586); /* Subtle shadow */
+
+    max-width: 1000px; /* Maximum width for the form */
+    width:100%;
+    display: flex;
+  justify-content: center;
+}
+
+.event-form-background .form .title-and-line-container{
+    flex:1;
+    display: flex;
+
+}
+.form-group label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* Image preview styling */
+.image-preview {
+    width: 400px ; /* Set a larger width for the image */
+    height: 300px; /* Maintain aspect ratio */
+    border-radius: 4px; /* Rounded corners for images */
+    margin-top: 10px; /* Space above the image */
+    display: block; /* Ensure it behaves like a block element */
+    margin-left: auto; /* Center the image */
+    margin-right: auto; /* Center the image */
+}
+
+.vertical-line {
+    width: 15px; /* Width of the line */
+    height: 100%; /* Height of the line */
+    background-color: #616a75; /* Color of the line */
+    border-radius: 4px; /* Rounded corners */
+    margin: 0 0px; /* Space on the left and right */
+
+}
+.event-form-background .form h2 {
+    font-size: 3em;
+    margin:0;
+    padding-right: 1.2em;
+    display: flex;
+}
+
+
+.event-form-background .form .img-input-button-container{
+    /* border: 2px solid rgb(255, 80, 162); */
+    margin-right: 10em;
+}
