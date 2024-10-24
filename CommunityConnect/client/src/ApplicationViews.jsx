@@ -51,3 +51,12 @@ const ApplicationViews = ({ isLoggedIn }) => {
 };
 
 export default ApplicationViews;
+
+
+
+
+
+
+
+
+

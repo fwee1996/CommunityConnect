@@ -96,7 +96,7 @@
 
 
 
-
+//this works:
 import React, { useState, useEffect } from 'react';
 import { GetEventById } from '../../services/EventService';
 import { Link, useParams, useNavigate } from 'react-router-dom';
@@ -252,6 +252,19 @@ const EventDetails = () => {
     <label htmlFor="location" className="label"><strong>Location:</strong></label>
     <p className="input-field"><i className="fas fa-map-marker-alt"></i> {event.address}, {event.city}, {event.state}</p>
     
+     {/* Embed Google Map */}
+     {/* <div className="map-container">
+            <iframe
+                title="Google Map"
+                src={`https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=${encodeURIComponent(`${event.address}, ${event.city}, ${event.state}`)}`}
+                width="600"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+            ></iframe>
+        </div> */}
+
     <label htmlFor="volunteers" className="label"><strong>Volunteers Needed:</strong></label>
     <p className="input-field">{event.numVolunteersNeeded}</p>
     
@@ -289,3 +302,25 @@ const EventDetails = () => {
 };
 
 export default EventDetails;
+
+
+
+
+//location details:<iframe
+{/* <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345097514!2d144.95373531531527!3d-37.8172099797517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11b4a3%3A0x5045675218ceed30!2sYOUR_LOCATION!5e0!3m2!1sen!2sus!4v1613990850718!5m2!1sen!2sus"
+  width="600"
+  height="450"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy">
+</iframe> */}
+
+
+
+
+
+
+
+
+

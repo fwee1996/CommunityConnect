@@ -24,8 +24,20 @@
     padding-bottom: 20px;
     /* border:2px solid coral; */
     height: 50%;
+    background-image: url('../../images/4857721 - Copy.jpg'); 
+background-size: cover; /* Make the image cover the entire container */
+background-position:   center; /* Center the image */
+/* background-position: 20px 50px;--- move image in container 20px from the left, 30px from the top */
+background-repeat: no-repeat; /* Prevent the image from repeating */
+
+
 }
 
+
+/* Center: background-position: center;
+Top Left: background-position: top left;
+Bottom Right: background-position: bottom right;
+Custom Position: Combine keywords (e.g., background-position: top 20px left 30px;). */
 
 #user-img{
     height: 40vh;
@@ -112,14 +124,14 @@
 }
 
 .my-events-label{
-    margin-bottom: 20px !important ;
+     margin-bottom: 20px !important ;
     margin-top: 20px;
     font-size: 3em !important;
     /* border:2px solid coral; */
     padding:10px;
     background-color:  #d8d8d8;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 500;
+    font-weight: 500; 
 }
 
 h3{
@@ -129,4 +141,8 @@ h3{
 .user-details p{
 
 font-size:1.2em;
+}
+
+.icon-light {
+    opacity: 0.5; /* Adjust the value as needed */
 }

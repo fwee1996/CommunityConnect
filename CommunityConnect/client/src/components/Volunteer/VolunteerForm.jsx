@@ -1,89 +1,3 @@
-// import React, { useState, useEffect } from "react";
-// import { useParams, useNavigate } from "react-router-dom";
-// import { AddVolunteer } from "../../services/VolunteerService";
-// import { GetEventById } from "../../services/EventService";
-// import { GetUserById } from '../../services/UserService';
-
-// export default function VolunteerForm() {
-//   const { eventId } = useParams();
-//   const [comment, setComment] = useState("");
-//   const [eventName, setEventName] = useState("");
-//   const [organizerName, setOrganizerName] = useState("");
-//   const navigate = useNavigate();
-
-//   useEffect(() => {
-//     GetEventById(eventId).then(eventData => {
-//       setEventName(eventData.name);
-//       return GetUserById(eventData.userId);
-//     }).then(organizer => {
-//       setOrganizerName(organizer.fullName);
-//     });
-//   }, [eventId]);
-
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-
-//     // const userProfile = JSON.parse(localStorage.getItem("userProfile"));
-//     const userProfile = JSON.parse(localStorage.getItem("userProfile"));
-//     console.log("User Profile:", userProfile);
-    
-//     const parsedEventId=JSON.parse(eventId);
-
-//     const newVolunteerForm = {
-//       signupDate: new Date().toISOString(),
-//       comment:comment,
-//       eventId:parsedEventId,
-//       userId: userProfile.id
-//     };
-
-//     console.log("Submitting Volunteer Signup:", newVolunteerForm);
-
-//     AddVolunteer(newVolunteerForm).then(() => {
-//       navigate(`/events/${eventId}`);
-//     });
-//   };
-
-//   return (
-//     <form onSubmit={handleSubmit}>
-//       <div>
-//         <h1>Sign up to Volunteer!</h1>
-//         <h2>{eventName}</h2>
-//         <h3>{organizerName}</h3>
-//       </div>
-//       <div>
-//         <label htmlFor="comment">Comment: </label>
-//         <textarea
-//           placeholder="Comment"
-//           value={comment}
-//           onChange={(e) => setComment(e.target.value)}
-//         />
-//       </div>
-//       <button type="submit">Sign me up!</button>
-//       <button type="button" onClick={() => navigate(`/events/${eventId}`)}>Cancel</button>
-//     </form>
-//   );
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { AddVolunteer } from "../../services/VolunteerService";
@@ -97,7 +11,7 @@ export default function VolunteerForm() {
   const [comment, setComment] = useState("");
   const [eventName, setEventName] = useState("");
   const [organizerName, setOrganizerName] = useState("");
-  const [organizerUserId, setOrganizerUserId] = useState(""); // Store organizer's user ID
+  const [organizerUserId, setOrganizerUserId] = useState(null); // use null instead of "" if its userId, not user input
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -131,8 +45,21 @@ export default function VolunteerForm() {
 
     await AddVolunteer(newVolunteerForm);
 
+      // Increment unread notification count
+  let unreadCount = parseInt(localStorage.getItem("unreadCount"), 10) || 0;
+  unreadCount += 1;
+  localStorage.setItem("unreadCount", unreadCount);
+
+  
+   // Dispatch custom event --for updated count bubble--only these lines added for making sure bubble goes away when you press but increments properly when new notification added
+   const event = new Event('notificationAdded');
+   window.dispatchEvent(event);
+
+
     // Send notifications --params from state look at const [eventName, ..], const [organizerName, ..],
     await sendNotification(userProfile.id, eventId, eventName, volunteerName, organizerUserId);
+
+    alert("Thank you for volunteering! Your contribution is key to this event’s success. See you soon!");
 
     navigate(`/events/${eventId}`);
   };

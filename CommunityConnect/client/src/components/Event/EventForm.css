@@ -1,7 +1,13 @@
 .event-form-background{
 width:100vw;
 height:max-content;
-background-color: #d79922;
+/* background-color: #d79922;  */
+background-image: url('../../images/white-brick-wall-background.jpg'); 
+background-size: cover; /* Make the image cover the entire container */
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Prevent the image from repeating */
+/* #E54B4B */
+/* #629677 */
 padding:20px 20px;
 display: flex;
 justify-content: center;

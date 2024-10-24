@@ -25,3 +25,8 @@ function App() {
 }
 // add isLoggedIn={isLoggedIn} in <ApplicationViews isLoggedIn={isLoggedIn}/> to only allow non logged in userto see events and event details
 export default App;
+
+
+
+
+

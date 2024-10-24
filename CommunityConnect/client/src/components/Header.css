@@ -32,22 +32,30 @@ nav .right-hand-side a {
     text-decoration: none; /* Remove underline from links */
 }
 .notification-icon {
-    position: relative;
+    position: relative;/* Make it a positioning context for the bubble */
     cursor: pointer;
-}
-
-.notification-bubble {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: red;
-    color: white;
-    border-radius: 50%;
-    padding: 0.2em;
-    font-size: 0.8em;
 }
 
 #logo{
     /* border: 2px solid black; */
 }
 
+
+/* .notification-bell {
+    position: relative;
+  } */
+  
+  
+  .notification-bubble {
+    position: absolute; /* Make sure it is positioned relative to its container */
+    top: -10px; /* Adjust positioning as needed */
+    right: -12px; /* Adjust positioning as needed */
+    background-color: red; /* Change color to your preference */
+    color: white;
+    border-radius: 50%; /* make it round */
+    padding: 0px 8px; /* Adjust padding as needed */
+    font-size: 12px; /* Change font size if needed */
+    display: flex; /* Center text inside the bubble */
+    justify-content: center;
+    align-items: center;
+}

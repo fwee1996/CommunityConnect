@@ -153,7 +153,7 @@
 
 
 
-
+//this works:
 import React, { useState, useEffect } from 'react';
 import { GetAllEvents } from '../../services/EventService';
 import { useNavigate } from 'react-router-dom';
@@ -292,3 +292,4 @@ const EventList = () => {
 };
 
 export default EventList;
+

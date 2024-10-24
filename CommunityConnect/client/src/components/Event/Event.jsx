@@ -26,6 +26,8 @@ const Event = ({ image, name, date, time, organizerName, organizerImage, onClick
     return (
         <div className="event" onClick={onClick}>
             <div className="eventImage" style={{ backgroundImage: `url(${image})` }}></div>
+            {/* <img src={image} alt={name} className="eventImage" /> */}
+
             <div className="eventDetails">
                 <h3>{name}</h3>
                 <div className="eventMeta">
