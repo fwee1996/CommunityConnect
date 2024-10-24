@@ -1,4 +1,4 @@
-<img src="https://github.com/fwee1996/Fur-Ever-Home/blob/fw7/images/Logo1.png?raw=true" width="380"><!-- src/images/cclogo3-removebg-preview.png -->
+<!--<img src="https://github.com/fwee1996/Fur-Ever-Home/blob/fw7/images/Logo1.png?raw=true" width="380">--><!-- src/images/cclogo3-removebg-preview.png -->
 
 ## Overview
 <p align="center">
