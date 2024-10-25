@@ -564,13 +564,13 @@ const User = () => {
         }
     };
 
-    if (!userProfile || !userProfile.id) {
-        return <div>Please log in to view your profile.</div>;
-    }
+    // if (!userProfile || !userProfile.id) {
+    //     return <div>Please log in to view your profile.</div>;
+    // }
 
-    if (!user) {
-        return <div>Loading...</div>;
-    }
+    // if (!user) {
+    //     return <div>Loading...</div>;
+    // }
 
     const renderEventCards = (events) => (
         events.map(event => (
