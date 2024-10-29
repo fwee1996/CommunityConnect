@@ -1,5 +1,5 @@
 import React from 'react';
-import './Event.css'; // Ensure you have styles defined here
+import './Event.css';
 
 const Event = ({ image, name, date, time, organizerName, organizerImage, onClick }) => {
     return (
