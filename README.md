@@ -1,17 +1,14 @@
   ![image](CommunityConnect/wwwroot/assets/images/cclogo3.png)
 ## Overview
-<br>
 In today’s increasingly remote work environment, many individuals find themselves grappling with feelings of isolation and disconnection from their communities. Community Connect is here to change that. This innovative app offers a seamless way to discover, participate in, and organize local volunteer and community events, empowering users to forge real connections and make a difference.
 
 With Community Connect, users can easily explore a diverse array of activities that resonate with their interests, from neighborhood cleanups to charity fundraisers. The platform allows users to sign up for events, communicate directly with organizers, and even create their own initiatives. By simplifying access to community engagement, the app enables users to manage their participation effortlessly and fosters a spirit of collaboration.
 
 
 ## Video Walkthrough
-<br>
 https://www.youtube.com/watch?v=tos8GW5djYU
 
 ## Installation Instructions
-<br>
 1. **Clone the repository**.
 2. **Open the solution file**: Open `CommunityConnect.sln` in Visual Studio.
     - Use `01_CommunityConnect_Create_DB.sql` to create the necessary tables and columns in the database.
@@ -42,12 +39,12 @@ Users can browse a comprehensive list of upcoming volunteering events in their a
 Users can click on an event on event listings for more details, including the location, date, time, and other details.<br>
 ![image](CommunityConnect/wwwroot/assets/images/event-details.png)
 
-## Volunteer
+## Volunteer Form
 
 Users can click on the "Get Involved" button.<br>
 ![image](CommunityConnect/wwwroot/assets/images/volunteer-list.png)
 
-## Contact Organizer
+## Contact Organizer Form
 
 Users can click on the "Contact Organizer" button.<br>
 ![image](CommunityConnect/wwwroot/assets/images/contact-list.png)
