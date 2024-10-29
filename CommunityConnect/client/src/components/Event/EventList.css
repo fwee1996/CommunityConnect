@@ -90,6 +90,5 @@
  /* Create space between toggle button/checkbox and "Nearby Events" */
 .filter-container label input {
     margin-right: 15px; /* Space between the checkbox and the text */
-    cursor: pointer; 
-    
+    cursor: pointer;   
 }
