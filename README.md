@@ -21,15 +21,17 @@ https://www.youtube.com/watch?v=tos8GW5djYU
    `npm run dev`
 
 ## User Authentication
-Use the app to log in or register as a new member.
-
+Users can log in or register as a new member.
 ![image](CommunityConnect/wwwroot/assets/images/login.png)
+![image](CommunityConnect/wwwroot/assets/images/register.png)
 
 ## Event Listings
-![image](CommunityConnect/wwwroot/assets/images/register.png)
+![image](CommunityConnect/wwwroot/assets/images/event-list.png)
+Users can browse a comprehensive list of upcoming volunteering events in their area, making it easy to find activities that resonate with their passions.
 
 ## Event Details
 ![image](CommunityConnect/wwwroot/assets/images/event-details.png)
+Users can click on an event for more details, including the location, date, time, and other details.
 
 ## Edit an Event
 ![image](CommunityConnect/wwwroot/assets/images/edit-events.png)
