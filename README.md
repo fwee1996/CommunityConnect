@@ -1,12 +1,10 @@
-<!--<img src="https://github.com/fwee1996/Fur-Ever-Home/blob/fw7/images/Logo1.png?raw=true" width="380">--><!-- src/images/cclogo3-removebg-preview.png -->
 <p align="center">
-<!-- <img src="https://github.com/user-attachments/assets/aff4c6cf-3af2-489b-a258-ea61182c4073" width="300"> -->
-  Community Connect
-  ![image](assets/images/cclogo3.png)
+    <img src="CommunityConnect/wwwroot/assets/images/cclogo3.png" alt="Community Connect Logo" />
 </p>
 
-## Overview
 
+
+## Overview
 In today’s increasingly remote work environment, many individuals find themselves grappling with feelings of isolation and disconnection from their communities. Community Connect is here to change that. This innovative app offers a seamless way to discover, participate in, and organize local volunteer and community events, empowering users to forge real connections and make a difference.
 
 With Community Connect, users can easily explore a diverse array of activities that resonate with their interests, from neighborhood cleanups to charity fundraisers. The platform allows users to sign up for events, communicate directly with organizers, and even create their own initiatives. By simplifying access to community engagement, the app enables users to manage their participation effortlessly and fosters a spirit of collaboration.
@@ -16,7 +14,6 @@ With Community Connect, users can easily explore a diverse array of activities t
 https://www.youtube.com/watch?v=tos8GW5djYU
 
 ## Installation Instructions
-
 1. **Clone the repository**.
 2. **Open the solution file**: Open `CommunityConnect.sln` in Visual Studio.
     - Use `01_CommunityConnect_Create_DB.sql` to create the necessary tables and columns in the database.
@@ -28,32 +25,63 @@ https://www.youtube.com/watch?v=tos8GW5djYU
    `npm run dev`
 
 ## User Authentication
-Use the app to log in or register as a new member.
-
-![image](assets/images/login.png)
+Log in or register as a new member.
+<br>
+**Login**<br>
+<br>
+![image](CommunityConnect/wwwroot/assets/images/login.png)<br>
+**Register**<br>
+<br>
+![image](CommunityConnect/wwwroot/assets/images/register.png)
 
 ## Event Listings
-![image](assets/images/register.png)
+Browse a comprehensive list of upcoming volunteering events in your area to find activities that resonate with your passions.<br>
+<br>
+![image](CommunityConnect/wwwroot/assets/images/event-list.png)
 
 ## Event Details
-![image](assets/images/event-details.png)
+Click on an event for more details, including the location, date, time, and other details.<br>
+<br>
+![image](CommunityConnect/wwwroot/assets/images/event-details.png)
 
-## Edit an Event
-![image](assets/images/edit-events.png)
+## Volunteer Form
+Click on the "Get Involved" button on the event details page to sign up to volunteer.<br>
+<br>
+![image](CommunityConnect/wwwroot/assets/images/volunteer-form.png)
 
-## Create an Event
-![image](assets/images/organize-event.png)
-
-## Volunteer
-![image](assets/images/volunteer-list.png)
-
-## Contact Organizer
-![image](assets/images/contact-list.png)
+## Contact Organizer Form
+Click on the "Contact Organizer" button on the event details page to submit an inquiry.<br>
+<br>
+![image](CommunityConnect/wwwroot/assets/images/contact-form.png)
 
 ## Notifications 
-![image](assets/images/notifications.png)
+A new notification is posted when you sign up to volunteer for an event or contact the organizer of an event.<br> 
+<br>
+![image](CommunityConnect/wwwroot/assets/images/notifications.png)
 
+## Create an Event
+Organize your own event.<br>
+<br>
+![image](CommunityConnect/wwwroot/assets/images/organize-event.png)
+
+## Edit an Event
+Edit your event.<br>
+<br>
+![image](CommunityConnect/wwwroot/assets/images/edit-events.png)
 
 ## My Profile and Events
-![image](assets/images/profile.png)
-![image](assets/images/my-events.png)
+View and update your profile. You can also view events you have organized, are volunteering in and past events.<br> 
+<br>
+![image](CommunityConnect/wwwroot/assets/images/profile.png)
+![image](CommunityConnect/wwwroot/assets/images/my-events.png)
+
+## Volunteer List
+Click on "View Volunteers" button on the event details page for an event you organized to view the volunteer list.<br>
+<br>
+![image](CommunityConnect/wwwroot/assets/images/volunteer-list.png)
+
+## Contact Organizer List
+Click on "View Contact Forms" button on the event details page for an event you organized to view the list of inquiries you received for that event.<br>
+<br>
+![image](CommunityConnect/wwwroot/assets/images/contact-list.png)
+
