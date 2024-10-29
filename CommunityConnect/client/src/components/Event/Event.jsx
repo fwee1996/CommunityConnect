@@ -1,24 +1,3 @@
-// // Event.js
-// import React from 'react';
-// import './Event.css'; // Create this CSS file for Event styles
-
-// const Event = ({ image, name, date, time, organizerImage, organizerName, onClick }) => {
-//     return (
-//         <div className="event" onClick={onClick}>
-//             <div style={{ backgroundImage: `url(${image})` }}></div>
-//             <h3>{name}</h3>
-//             <p>Date: {date}</p>
-//             <p>Time: {time}</p>
-//             <p>Organizer: {organizerName}</p>
-//         </div>
-//     );
-// };
-
-// export default Event;
-
-
-
-// Event.js
 import React from 'react';
 import './Event.css'; // Ensure you have styles defined here
 
