@@ -55,17 +55,16 @@ Users get a notification when they sign up to volunteer for an event or contact 
 ![image](CommunityConnect/wwwroot/assets/images/notifications.png)
 
 ## Create an Event
-
 Users can organize their own events.<br>
+<br>
 ![image](CommunityConnect/wwwroot/assets/images/organize-event.png)
 
 ## Edit an Event
-
 Users can edit their events.<br>
+<br>
 ![image](CommunityConnect/wwwroot/assets/images/edit-events.png)
 
 ## My Profile and Events
-
 Users can view and update their profile and they can view events they have organized, are volunteering in and past events.<br> 
 <br>
 ![image](CommunityConnect/wwwroot/assets/images/profile.png)
