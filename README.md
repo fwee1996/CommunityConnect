@@ -3,8 +3,8 @@
 <!-- <img src="https://github.com/user-attachments/assets/aff4c6cf-3af2-489b-a258-ea61182c4073" width="300"> -->
   Community Connect
 </p>
-  ![image](https://github.com/fwee1996/CommunityConnect/blob/fw16-share-link/CommunityConnect/wwwroot/assets/images/cclogo3.png)
-
+  ![image](CommunityConnect/wwwroot/assets/images/cclogo3.png)
+![image](CommunityConnect/wwwroot/assets/images/organize-event.png)
   
 ## Overview
 
