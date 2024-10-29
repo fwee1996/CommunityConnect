@@ -81,7 +81,7 @@ Click on "View Volunteers" button on the event details page for an event you org
 ![image](CommunityConnect/wwwroot/assets/images/volunteer-list.png)
 
 ## Contact Organizer List
-Click on "View Contact Forms" button on the event details page for an event you organized to view the list of contact forms you received.<br>
+Click on "View Contact Forms" button on the event details page for an event you organized to view the list of inquiries you received for that event.<br>
 <br>
 ![image](CommunityConnect/wwwroot/assets/images/contact-list.png)
 
