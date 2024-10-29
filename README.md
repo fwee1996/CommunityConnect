@@ -25,7 +25,7 @@ https://www.youtube.com/watch?v=tos8GW5djYU
    `npm run dev`
 
 ## User Authentication
-Users can log in or register as a new member.
+Log in or register as a new member.
 <br>
 **Login**<br>
 <br>
@@ -35,53 +35,53 @@ Users can log in or register as a new member.
 ![image](CommunityConnect/wwwroot/assets/images/register.png)
 
 ## Event Listings
-Users can browse a comprehensive list of upcoming volunteering events in their area, making it easy to find activities that resonate with their passions.<br>
+Browse a comprehensive list of upcoming volunteering events in your area to find activities that resonate with your passions.<br>
 <br>
 ![image](CommunityConnect/wwwroot/assets/images/event-list.png)
 
 ## Event Details
-Users can click on an event on event listings for more details, including the location, date, time, and other details.<br>
+Click on an event for more details, including the location, date, time, and other details.<br>
 <br>
 ![image](CommunityConnect/wwwroot/assets/images/event-details.png)
 
 ## Volunteer Form
-Users can click on the "Get Involved" button to sign up to volunteer.<br>
+Click on the "Get Involved" button on the event details page to sign up to volunteer.<br>
 <br>
 ![image](CommunityConnect/wwwroot/assets/images/volunteer-form.png)
 
 ## Contact Organizer Form
-Users can click on the "Contact Organizer" button to submit an inquiry.<br>
+Click on the "Contact Organizer" button on the event details page to submit an inquiry.<br>
 <br>
 ![image](CommunityConnect/wwwroot/assets/images/contact-form.png)
 
 ## Notifications 
-Users get a notification when they sign up to volunteer for an event or contact the organizer of an event.<br> 
+A new notification is posted when you sign up to volunteer for an event or contact the organizer of an event.<br> 
 <br>
 ![image](CommunityConnect/wwwroot/assets/images/notifications.png)
 
 ## Create an Event
-Users can organize their own events.<br>
+Organize your own event.<br>
 <br>
 ![image](CommunityConnect/wwwroot/assets/images/organize-event.png)
 
 ## Edit an Event
-Users can edit their events.<br>
+Edit your event.<br>
 <br>
 ![image](CommunityConnect/wwwroot/assets/images/edit-events.png)
 
 ## My Profile and Events
-Users can view and update their profile. They can also view events they have organized, are volunteering in and past events.<br> 
+View and update your profile. You can also view events you have organized, are volunteering in and past events.<br> 
 <br>
 ![image](CommunityConnect/wwwroot/assets/images/profile.png)
 ![image](CommunityConnect/wwwroot/assets/images/my-events.png)
 
 ## Volunteer List
-Users can click on "View Volunteers" button for an event they organized to view the volunteer list.<br>
+Click on "View Volunteers" button on the event details page for an event you organized to view the volunteer list.<br>
 <br>
 ![image](CommunityConnect/wwwroot/assets/images/volunteer-list.png)
 
 ## Contact Organizer List
-Users can click on "View Contact Forms" button for an event they organized to view the list of contact forms they received.<br>
+Click on "View Contact Forms" button on the event details page for an event you organized to view the list of contact forms you received.<br>
 <br>
 ![image](CommunityConnect/wwwroot/assets/images/contact-list.png)
 
