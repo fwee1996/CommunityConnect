@@ -1,59 +1,46 @@
-/* EventList.css */
-
-/* General styles for the event list */
 .event-list {
-    /* background-color: #dee2e6; */
     margin-top: 120px !important;
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto', sans-serif; /* Use Roboto for body text */
-    /* padding: 20px; Add padding to the event list */
-    /* margin: 0 10%; Add left and right margins to center the content on the page */
-width:100vw;
+    font-family: 'Roboto', sans-serif; 
+    width:100vw;
 }
 
-/* Title styling for the event section */
 .eventTitle {
-    font-family: 'Montserrat', sans-serif; /* Use Montserrat for headings */
-    font-size: 3em; /* Font size for the title */
-    margin-bottom: 20px; /* Space below the title */
-    color: #333; /* Dark text for better readability */
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 3em; 
+    margin-bottom: 20px; 
+    color: #333; 
     margin-left: 10%;
 }
 
-/* Filter container styles for search and filters */
 .filter-search-city-state {
     display: flex;
-    margin-bottom: 20px; /* Space below the filter container */
+    margin-bottom: 20px; 
     border-radius: 30px; 
-    border: 2px solid #ccc; /* Add a border */
-    
+    border: 2px solid #ccc; 
 }
 
 .filter-container {
     display: flex;
-    flex-wrap: wrap; /* Allow wrapping for responsiveness */
-    justify-content: flex-start; /* Align items to the start */
-    align-items: center; /* Center items vertically */
-    gap: 10px; /* Space between items */
-    margin-bottom: 20px; /* Space below the filter container */
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+    align-items: center;
+    gap: 10px; 
+    margin-bottom: 20px; 
     margin-left: 10%;
 }
 
-
-
 .eventListContainer {
-    display: grid; /* Use grid layout for events */
+    display: grid; 
     grid-template-columns: repeat(3, 1fr); /* Set to 3 equal columns */
-    gap: 50px !important; /* Space between event cards */
-    width: 100%; /* Use full width of the parent container */
-    max-width: 1200px; /* Optional: Set a max width for better layout control */
-    margin: 0 auto; /* Center the grid on the page */
+    gap: 50px !important; 
+    width: 100%; 
+    max-width: 1200px;
+    margin: 0 auto;
     padding-left: 50px;
-    gap: 60px; /* Increase space between event cards */
+    gap: 60px; 
     margin-left:5% !important;
-  
-
 }
 
 
@@ -80,29 +67,29 @@ width:100vw;
 
 
 .filter-search-city-state input {
-    padding: 10px; /* Add padding to input fields */
-    border: 2px solid #ccc; /* Add a border */
-    font-family: 'Roboto', sans-serif; /* Ensure consistent font */
-    flex: 1; /* Default for other inputs */
+    padding: 10px; 
+    border: 2px solid #ccc; 
+    font-family: 'Roboto', sans-serif; 
+    flex: 1; 
 }
 
 .search-container input {
-    width: 300px; /* Set a fixed width for the search input */
+    width: 300px; 
 }
 
 
 .filter-container label {
-    font-family: 'Roboto', sans-serif; /* Change font if needed */
-    color: #333; /* Change text color */
-    cursor: pointer; /* Change cursor to pointer */
+    font-family: 'Roboto', sans-serif; 
+    color: #333; 
+    cursor: pointer; 
     font-size: 1.2em;
     margin-bottom: 20px;
     margin-left: 20px;
 }
 
- /* create space between toggle button/checkbox and "Nearby Events" */
+ /* Create space between toggle button/checkbox and "Nearby Events" */
 .filter-container label input {
     margin-right: 15px; /* Space between the checkbox and the text */
-    cursor: pointer; /* Change cursor to pointer */
+    cursor: pointer; 
     
 }
