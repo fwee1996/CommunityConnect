@@ -21,11 +21,11 @@
 volunteer-list-container{
     border:2px solid coral;
     margin: 20 px;
-    background-color: aqua;
+/*     background-color: aqua; */
 }
 
 .alert alert-info{
-    background-color: aqua;
+/*     background-color: aqua; */
 }
 
 /* Main container for the volunteer list */
