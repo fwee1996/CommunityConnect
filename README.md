@@ -14,3 +14,38 @@ With Community Connect, users can easily explore a diverse array of activities t
 ## Video Walkthrough
 https://www.youtube.com/watch?v=tos8GW5djYU
 
+## Installation Instructions
+
+1. **Clone the repository**.
+2. **Open the solution file**: Open `CommunityConnect.sln` in Visual Studio.
+    - Use `01_CommunityConnect_Create_DB.sql` to create the necessary tables and columns in the database.
+    - Use `02_CommunityConnect_Seed_Data.sql` to seed the database with initial data.
+3. **Run the app**: Inside Visual Studio, click the solid green button (Execute with Debugger) to launch the app.
+4. **Install dependencies**: In the terminal, navigate to the client folder where the `package.json` file is located and run:
+   `npm install`
+5. **Start the app**: Run the following command in the terminal:
+   `npm run dev`
+
+## User Authentication
+Use the app to log in or register as a new member.
+
+## Event Listings
+
+
+## Event Details
+
+
+## Edit an Event
+
+
+## Create an Event
+
+
+## Volunteer
+
+
+## Contact Organizer
+
+
+## My Profile and Events
+
