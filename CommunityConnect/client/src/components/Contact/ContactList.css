@@ -4,15 +4,12 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-
-    color: #333; /* Default text color */
+    color: #333; 
     margin-top: 100px; 
-
     padding: 0;
 
 }
 
-/* Table styles */
 .table {
     width: 100%; /* Full width */
     border-collapse: collapse; /* Merge borders */
