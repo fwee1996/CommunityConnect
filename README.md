@@ -42,12 +42,12 @@ Users can click on an event on event listings for more details, including the lo
 ## Volunteer Form
 Users can click on the "Get Involved" button.<br>
 <br>
-![image](CommunityConnect/wwwroot/assets/images/volunteer-list.png)
+![image](CommunityConnect/wwwroot/assets/images/volunteer-form.png)
 
 ## Contact Organizer Form
 Users can click on the "Contact Organizer" button.<br>
 <br>
-![image](CommunityConnect/wwwroot/assets/images/contact-list.png)
+![image](CommunityConnect/wwwroot/assets/images/contact-form.png)
 
 ## Notifications 
 Users get a notification when they sign up to volunteer for an event or contact the organizer of an event.<br> 
@@ -69,3 +69,14 @@ Users can view and update their profile and they can view events they have organ
 <br>
 ![image](CommunityConnect/wwwroot/assets/images/profile.png)
 ![image](CommunityConnect/wwwroot/assets/images/my-events.png)
+
+## Volunteer List
+Users can click on the "Get Involved" button.<br>
+<br>
+![image](CommunityConnect/wwwroot/assets/images/volunteer-list.png)
+
+## Contact Organizer List
+Users can click on the "Contact Organizer" button.<br>
+<br>
+![image](CommunityConnect/wwwroot/assets/images/contact-list.png)
+
