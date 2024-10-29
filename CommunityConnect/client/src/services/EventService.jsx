@@ -58,25 +58,5 @@ export const DeleteEventsByUserId = (userId) => {
 };
 
 
-//geolocation
-// /// services/GeocodingService.js
-// const API_URL = 'https://api.example.com/geocode'; // Replace with your geocoding API endpoint
-// const API_KEY = 'YOUR_API_KEY'; // If your service requires an API key
 
-// export const getCoordinatesFromAddress = async (address) => {
-//     const encodedAddress = encodeURIComponent(address);
-//     const response = await fetch(`${API_URL}?address=${encodedAddress}&key=${API_KEY}`);
-
-//     if (!response.ok) {
-//         throw new Error('Unable to fetch coordinates');
-//     }
-
-//     const data = await response.json();
-//     if (data.results.length > 0) {
-//         const { lat, lng } = data.results[0].geometry.location; // Adjust based on your API's response structure
-//         return { lat, lng };
-//     } else {
-//         throw new Error('No results found');
-//     }
-// };
 
