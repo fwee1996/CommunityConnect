@@ -1,4 +1,8 @@
-  ![image](CommunityConnect/wwwroot/assets/images/cclogo3.png)
+
+  <div style="text-align: center;">
+    <img src="CommunityConnect/wwwroot/assets/images/cclogo3.png" alt="Community Connect Logo" />
+</div>
+
 ## Overview
 In today’s increasingly remote work environment, many individuals find themselves grappling with feelings of isolation and disconnection from their communities. Community Connect is here to change that. This innovative app offers a seamless way to discover, participate in, and organize local volunteer and community events, empowering users to forge real connections and make a difference.
 
