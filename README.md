@@ -33,42 +33,42 @@ Users can log in or register as a new member.
 ![image](CommunityConnect/wwwroot/assets/images/register.png)
 
 ## Event Listings
-<br>
+
 Users can browse a comprehensive list of upcoming volunteering events in their area, making it easy to find activities that resonate with their passions.<br>
 ![image](CommunityConnect/wwwroot/assets/images/event-list.png)
 
 ## Event Details
-<br>
+
 Users can click on an event on event listings for more details, including the location, date, time, and other details.<br>
 ![image](CommunityConnect/wwwroot/assets/images/event-details.png)
 
 ## Volunteer
-<br>
+
 Users can click on the "Get Involved" button.<br>
 ![image](CommunityConnect/wwwroot/assets/images/volunteer-list.png)
 
 ## Contact Organizer
-<br>
+
 Users can click on the "Contact Organizer" button.<br>
 ![image](CommunityConnect/wwwroot/assets/images/contact-list.png)
 
 ## Notifications 
-<br>
+
 Users get a notification when they sign up to volunteer for an event or contact the organizer of an event.<br> 
 ![image](CommunityConnect/wwwroot/assets/images/notifications.png)
 
 ## Create an Event
-<br>
+
 Users can organize their own events.<br>
 ![image](CommunityConnect/wwwroot/assets/images/organize-event.png)
 
 ## Edit an Event
-<br>
+
 Users can edit their events.<br>
 ![image](CommunityConnect/wwwroot/assets/images/edit-events.png)
 
 ## My Profile and Events
-<br>
+
 Users can view and update their profile and they can view events they have organized, are volunteering in and past events.<br> 
 <br>
 ![image](CommunityConnect/wwwroot/assets/images/profile.png)
