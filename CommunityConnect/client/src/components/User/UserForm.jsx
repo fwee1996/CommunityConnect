@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { UpdateUser, GetUserById } from "../../services/UserService";
 import "./UserForm.css"
+
 export const UserForm = () => {
     const { userId } = useParams();
     const [fullName, setFullName] = useState("");
@@ -63,9 +64,8 @@ export const UserForm = () => {
             if (file) {
               const formData = new FormData();
               formData.append("file", file);
-              const uploadUrl = `https://localhost:5001/api/user/upload?userId=${userId}` //edit user
-          
-        
+              const uploadUrl = `https://localhost:5001/api/user/upload?userId=${userId}` // Edit user
+
               const response = await fetch(uploadUrl, {
                 method: "POST",
                 body: formData,
@@ -104,7 +104,7 @@ export const UserForm = () => {
             {profileImage ? (
         <img src={profileImage.startsWith("http") ? profileImage : `https://localhost:5001/${profileImage}`} alt="Event" style={{ width: "400px", height: "400px" }} />
       ) : (
-        <p>No image available</p> // Optional message if no image exists in the database
+        <p>No image available</p> // Message if no image exists in the database
       )}
       </div>
 
@@ -177,7 +177,6 @@ export const UserForm = () => {
             <button type="button" onClick={() => navigate(`/profile`)} className="btn btn-secondary">Cancel</button>
             </div>
             
-
             </div>
         </form>
         </div>
