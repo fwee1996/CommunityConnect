@@ -78,7 +78,7 @@ namespace CommunityConnect.Repositories
                     DbUtils.AddParameter(cmd, "@userId", notification.UserId);
                     DbUtils.AddParameter(cmd, "@eventId", notification.EventId);
                     DbUtils.AddParameter(cmd, "@message", notification.Message);
-                    DbUtils.AddParameter(cmd, "@notificationDate", DateTime.UtcNow);
+                    DbUtils.AddParameter(cmd, "@notificationDate", DateTime.Now); 
                     DbUtils.AddParameter(cmd, "@isRead", notification.IsRead);
 
                     cmd.ExecuteNonQuery();

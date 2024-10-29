@@ -88,3 +88,14 @@ margin-right: 20px;
 .button-margin {
     margin-right: 30px; /* Adjust this value as needed */
 }
+
+.title-and-share-buttons-container{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.share-buttons {
+    display: flex; /* Use flexbox for horizontal alignment NEEDED FOR GAP*/
+    gap: 10px; /* This will add space between each button */
+}

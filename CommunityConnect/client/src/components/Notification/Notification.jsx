@@ -176,9 +176,7 @@ const NotificationList = () => {
                         // <span>{new Date(notification.notificationDate).toLocaleString()}</span>
                         //</div>
                         .map((notification, index) => {
-                            const utcDate = new Date(notification.notificationDate + 'Z'); // my UTC date missing Z
-                            const localDate = utcDate.toLocaleString('en-US', { timeZone: 'America/New_York' });
-    
+
                             return (
                                 <tr key={notification.id} 
                                 className={index % 2 === 0 ? 'even' : 'odd'}
@@ -186,7 +184,7 @@ const NotificationList = () => {
                                 // style={{ fontWeight: !notification.isRead ? 'bold' : 'normal' }}
                                 >
                                     <td>{notification.message}</td>
-                                    <td>{localDate}</td>
+                                    <td>{notification.notificationDate}</td>
                                 </tr>
                             );
                         })

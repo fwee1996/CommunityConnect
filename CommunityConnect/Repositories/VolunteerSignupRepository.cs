@@ -111,7 +111,7 @@ namespace CommunityConnect.Repositories
                     DbUtils.AddParameter(cmd, "@userId", volunteerSignup.UserId);
                     DbUtils.AddParameter(cmd, "@eventId", volunteerSignup.EventId);
                     DbUtils.AddParameter(cmd, "@signupDate", volunteerSignup.SignupDate);
-                    DbUtils.AddParameter(cmd, "@comment", volunteerSignup.Comment ?? (object)DBNull.Value); // Handle null
+                    DbUtils.AddParameter(cmd, "@comment", volunteerSignup.Comment); // Handle null
                     //DbUtils.AddParameter(cmd, "@userId", userId);
                     //DbUtils.AddParameter(cmd, "@eventId", eventId);
 
