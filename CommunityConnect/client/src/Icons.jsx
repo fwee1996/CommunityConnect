@@ -36,12 +36,14 @@ export const EditPencil = ({ color, size }) => (
   );
   
   export const TrashcanDelete = ({ color, size }) => (
+    <div style={{ padding: '3px'}}>
     <svg
       width={size}
       height={size}
       viewBox="0 0 16 16"
       display="block"
       enableBackground="new 0 0 24 24"
+      padding="5px"
     >
       <path
         fill="none"
@@ -51,5 +53,6 @@ export const EditPencil = ({ color, size }) => (
         d="M6 2.5v-2h4v2M1 2.5h14M9.533 13.5l.25-9M6.217 4.5l.25 9M2.661 4.5l.889 11h8.9l.888-11"
       ></path>
     </svg>
+    </div>
   );
   

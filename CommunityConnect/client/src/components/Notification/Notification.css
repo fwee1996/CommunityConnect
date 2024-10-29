@@ -5,18 +5,37 @@
     cursor: pointer;
 }
 
-#notification-container{
+/* #notification-container{
     margin-top: 100px;
     width:80vw;
     margin-left: 150px;
     padding: 20px;
+} */
+
+#notification-container {
+    margin-top: 80px;
+    height:100vh;
+    width: 100vw;
+    padding: 20px;
+    background-image: url('../../images/mhk_11.jpg'); 
+    background-size: cover; /* Make the image cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    /* border: 2px solid coral;  */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+   align-items: center;
+   
 }
 
+
 .notification-table {
-    width: 100%;
+    width: 60%;
     border-collapse: collapse; /* Remove space between table cells */
     margin-top: 20px; /* Space above the table */
-   
+   justify-content: center;
+   align-items: center;
 }
 
 .notification-table th,
@@ -41,4 +60,45 @@
 
 .notification-table tr:hover {
     background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+
+/* Set pic as BG: */
+/* body {
+    margin: 0; 
+    height: 100vh; 
+    background-image: url('../images/fuyt2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+/* #notification-container {
+    margin-top: 100px;
+    width: 80vw;
+    margin-left: 150px;
+    padding: 20px;
+    border: 2px solid coral;
+    /* background-color: rgba(255, 255, 255, 0.8); Semi-transparent background */
+    /* border-radius: 8px; Rounded corners */
+/* } */ 
+
+
+/* #notification-container h2{
+    font-size: 3em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+} */
+
+.libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5em;
+}
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
 }

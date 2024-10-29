@@ -6,75 +6,67 @@ import { GetUserById } from '../../services/UserService';
 import { sendContactNotification } from "../../services/NotificationService"; // For notification!
 import "./ContactForm.css"
 
-export default function ContactForm({ userProfile }) {
+export default function ContactForm() {
   const { eventId } = useParams();
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
   const navigate = useNavigate();
   const [eventName, setEventName] = useState("");
   const [organizerName, setOrganizerName] = useState("");
-  // const [organizerUserId, setOrganizerUserId] = useState("");
   const [organizerUserId, setOrganizerUserId] = useState(null); // Initialized as null
-  const [inquirerName, setInquirerName] = useState(""); //
-
-  // useEffect(() => {
-  //   // Fetch event name and organizer name concurrently
-  //   GetEventById(eventId).then(eventData => {
-  //     setEventName(eventData.name);
-  //     return GetUserById(eventData.userId);
-  //   }).then(organizer => {
-  //     setOrganizerName(organizer.fullName);
-  //     // setOrganizerUserId(organizer.id);
-  //     setOrganizerUserId(parseInt(organizer.id)); // Check it's a number
-  //   });
-  // }, [eventId]);
-
-
 
   useEffect(() => {
+    // Fetch event name and organizer name concurrently
     GetEventById(eventId).then(eventData => {
         setEventName(eventData.name);
         return GetUserById(eventData.userId);
     }).then(organizer => {
         console.log("Organizer data:", organizer); 
         setOrganizerName(organizer.fullName);
-            setOrganizerUserId(parseInt(organizer.id)); 
+            setOrganizerUserId(parseInt(organizer.id)); // Check it's a number
         
     });
 }, [eventId]);
 
+const handleSubmit = async (e) => {
+  e.preventDefault();
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    
-    // const userProfile = JSON.parse(localStorage.getItem("userProfile"));
-    const userProfile = JSON.parse(localStorage.getItem("userProfile"));
-    console.log("User Profile:", userProfile);
-    
-    const parsedEventId=JSON.parse(eventId);
+  const userProfile = JSON.parse(localStorage.getItem("userProfile"));
 
-    const inquirerName= userProfile.fullName; 
+  const parsedEventId=JSON.parse(eventId);
 
-    const newContactForm = {
-      submissionDate: new Date().toISOString(),
-      subject: subject,
-      message: message,
-      eventId:parsedEventId,
-      userId: userProfile.id,
-    };
+  const inquirerName= userProfile.fullName; 
 
-    await AddContactForm(newContactForm);
+  const newContactForm = {
+          submissionDate: new Date().toISOString(),
+          subject: subject,
+          message: message,
+          eventId:parsedEventId,
+          userId: userProfile.id,
+        };
 
-      // Check organizerUserId is the correct type (number)
-    console.log("Organizer User ID before notification:", organizerUserId);
-    console.log("Inquirer Name before notification:", inquirerName);
-    console.log("User Profile ID before notification:", userProfile.id); 
-    await sendContactNotification(userProfile.id, parsedEventId, eventName, inquirerName, organizerUserId);
-//note:parsedEventId!
+  await AddContactForm(newContactForm);
 
-    navigate(`/events/${eventId}`);
-   
-  };
+  // Increment unread notification count
+  let unreadCount = parseInt(localStorage.getItem("unreadCount"), 10) || 0;
+  unreadCount += 1;
+  localStorage.setItem("unreadCount", unreadCount);
+
+
+   // Dispatch custom event --for updated count bubble--only these lines added for making sure bubble goes away when you press but increments properly when new notification added
+   const event = new Event('notificationAdded');
+   window.dispatchEvent(event);
+
+//// Check organizerUserId is the correct type (number)
+//     console.log("Organizer User ID before notification:", organizerUserId);
+//     console.log("Inquirer Name before notification:", inquirerName);
+//     console.log("User Profile ID before notification:", userProfile.id); 
+  await sendContactNotification(userProfile.id, parsedEventId, eventName, inquirerName, organizerUserId); //note:parsedEventId!
+
+  alert("Thank you for contacting us! You can expect a response within 24 to 48 hours.");
+
+  navigate(`/events/${eventId}`);
+};
 
   return (
     <div className="contact-form-container">
