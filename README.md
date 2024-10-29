@@ -29,8 +29,10 @@ https://www.youtube.com/watch?v=tos8GW5djYU
 ## User Authentication
 Use the app to log in or register as a new member.
 
-## Event Listings
+![image] 
 
+## Event Listings
+![image]
 
 ## Event Details
 
