@@ -1,5 +1,5 @@
 header {
-    width: 100%; /* Full width */
+    width: 100%; 
     position: fixed; /* Keeps it at the top */
     top: 0;
     left: 0;
@@ -9,11 +9,10 @@ header {
 }
 
 nav {
-    display: flex; /* Flexbox for alignment */
-    justify-content: space-between; /* Space out items */
-    align-items: center; /* Center items vertically */
-    padding: 1rem; /* Add some padding */
-    width: 100%; /* Full width */
+    display: flex; 
+    align-items: center; 
+    padding: 1rem;
+    width: 100%; 
     justify-content: space-between;
 }
 
@@ -27,8 +26,8 @@ gap:20px
 }
 /* link */
 nav .right-hand-side a {
-    margin-right: 20px; /* Space between links */
-    color: white; /* Ensure the text color is white */
+    margin-right: 20px;
+    color: white; /* text color */
     text-decoration: none; /* Remove underline from links */
 }
 .notification-icon {
@@ -39,23 +38,17 @@ nav .right-hand-side a {
 #logo{
     /* border: 2px solid black; */
 }
-
-
-/* .notification-bell {
-    position: relative;
-  } */
   
-  
-  .notification-bubble {
-    position: absolute; /* Make sure it is positioned relative to its container */
-    top: -10px; /* Adjust positioning as needed */
-    right: -12px; /* Adjust positioning as needed */
-    background-color: red; /* Change color to your preference */
-    color: white;
-    border-radius: 50%; /* make it round */
-    padding: 0px 8px; /* Adjust padding as needed */
-    font-size: 12px; /* Change font size if needed */
-    display: flex; /* Center text inside the bubble */
-    justify-content: center;
-    align-items: center;
+.notification-bubble {
+position: absolute; /* Make sure it is positioned relative to its container */
+top: -10px; 
+right: -12px; 
+background-color: red;
+color: white;
+border-radius: 50%; /* Round */
+padding: 0px 8px; 
+font-size: 12px; 
+display: flex; /* Center text inside the bubble */
+justify-content: center;
+align-items: center;
 }
