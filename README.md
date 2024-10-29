@@ -1,5 +1,5 @@
 
-  <div style="text-align: center;">
+  <div style="align-items: center;">
     <img src="CommunityConnect/wwwroot/assets/images/cclogo3.png" alt="Community Connect Logo" />
 </div>
 
