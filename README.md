@@ -45,12 +45,12 @@ Users can click on an event on event listings for more details, including the lo
 ![image](CommunityConnect/wwwroot/assets/images/event-details.png)
 
 ## Volunteer Form
-Users can click on the "Get Involved" button.<br>
+Users can click on the "Get Involved" button to sign up to volunteer.<br>
 <br>
 ![image](CommunityConnect/wwwroot/assets/images/volunteer-form.png)
 
 ## Contact Organizer Form
-Users can click on the "Contact Organizer" button.<br>
+Users can click on the "Contact Organizer" button to submit an inquiry.<br>
 <br>
 ![image](CommunityConnect/wwwroot/assets/images/contact-form.png)
 
