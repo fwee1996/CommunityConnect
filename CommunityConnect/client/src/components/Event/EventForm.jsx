@@ -50,7 +50,6 @@ export const EventForm = () => {
     }
   };
   
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     const userProfile = JSON.parse(localStorage.getItem("userProfile"));
@@ -157,9 +156,7 @@ export const EventForm = () => {
           required
           className="form-control"
           id="event-title"
-        />
-   
-     
+        />     
      
       <label htmlFor="description"><strong>Description:</strong> </label> 
         <textarea
@@ -170,10 +167,7 @@ export const EventForm = () => {
           className="form-control"
           id="description"
         />
-    
-    
-    
-    
+        
       <label htmlFor="date"><strong>Date:</strong> </label> 
         <input
           type="date"
@@ -183,10 +177,7 @@ export const EventForm = () => {
           className="form-control"
           id="date"
         />
-      
-      
-      
-      
+
       <label htmlFor="start-time"><strong>Start Time:</strong></label> 
         <input
           type="time"
@@ -206,8 +197,7 @@ export const EventForm = () => {
           className="form-control"
            id="end-time"
         />
-     
-     
+  
      <label htmlFor="address"><strong>Address: </strong></label> 
         <input
           type="text"
@@ -241,7 +231,7 @@ export const EventForm = () => {
           id="state"
         />
  
- <label htmlFor="num-volunteers-needed"><strong>Number of Volunteers Needed: </strong></label>
+     <label htmlFor="num-volunteers-needed"><strong>Number of Volunteers Needed: </strong></label>
         <input
           type="number"
           placeholder="Volunteers Needed"
@@ -252,7 +242,7 @@ export const EventForm = () => {
           id="num-volunteers-needed"
         />
 
-  <label htmlFor="volunteer-duties"><strong>Volunteer Duties: </strong></label>
+    <label htmlFor="volunteer-duties"><strong>Volunteer Duties: </strong></label>
         <input
           type="text"
           placeholder="Volunteer Duties"
@@ -263,7 +253,7 @@ export const EventForm = () => {
         />
      </div>
 
-<div className="button-container">
+    <div className="button-container">
       <button type="submit">
         {eventBeingEdited ? "Save Changes" : "Add Event"}
       </button>
