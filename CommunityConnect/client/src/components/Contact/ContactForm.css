@@ -19,7 +19,6 @@ color:#4056a1;
 
 }
 
-
 .subject-and-msg-container{
     font-size: 1.3em;
 
@@ -29,18 +28,10 @@ margin-bottom: 20px;
 /* border: 2px solid coral; */
 }
 
-
-
-
-
 .subject-and-msg-container label {
     font-weight: bold; 
     margin-bottom: 5px;
 }
-
-
-
-
 
 textarea {
     width: 100%; /* Make inputs full width */
