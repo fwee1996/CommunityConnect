@@ -65,18 +65,18 @@ Users can edit their events.<br>
 ![image](CommunityConnect/wwwroot/assets/images/edit-events.png)
 
 ## My Profile and Events
-Users can view and update their profile and they can view events they have organized, are volunteering in and past events.<br> 
+Users can view and update their profile. They can also view events they have organized, are volunteering in and past events.<br> 
 <br>
 ![image](CommunityConnect/wwwroot/assets/images/profile.png)
 ![image](CommunityConnect/wwwroot/assets/images/my-events.png)
 
 ## Volunteer List
-Users can click on the "Get Involved" button.<br>
+Users can click on "View Volunteers" button for an event they organized to view the volunteer list.<br>
 <br>
 ![image](CommunityConnect/wwwroot/assets/images/volunteer-list.png)
 
 ## Contact Organizer List
-Users can click on the "Contact Organizer" button.<br>
+Users can click on "View Contact Forms" button for an event they organized to view the list of contact forms they received.<br>
 <br>
 ![image](CommunityConnect/wwwroot/assets/images/contact-list.png)
 
