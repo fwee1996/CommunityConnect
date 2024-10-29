@@ -22,9 +22,10 @@ https://www.youtube.com/watch?v=tos8GW5djYU
 
 ## User Authentication
 Users can log in or register as a new member.
-**Login**
-![image](CommunityConnect/wwwroot/assets/images/login.png)
-**Register**
+<br>
+**Login**<br>
+![image](CommunityConnect/wwwroot/assets/images/login.png)<br>
+**Register**<br>
 ![image](CommunityConnect/wwwroot/assets/images/register.png)
 
 ## Event Listings
