@@ -23,50 +23,50 @@
   }
 
 .event-details-content{
-margin: 1% 10% 0 10%;
-padding-bottom: 50px;
-font-family: Arial, sans-serif; /* Set a uniform font for all text */
+    margin: 1% 10% 0 10%;
+    padding-bottom: 50px;
+    font-family: Arial, sans-serif;
   }
 
 
   .event-date {
-    font-size: 1.3em; /* Slightly larger than the title */
-    font-weight: 600; /* Bold but not as bold as the title */
-    margin: 0.5em 0; /* Add some margin for spacing */
+    font-size: 1.3em; 
+    font-weight: 600; 
+    margin: 0.5em 0; 
     color: rgba(57, 65, 72, 0.816); 
 }
 
 .event-title {
-    font-size: 3em; /* Title size */
-    font-weight: bold; /* Title boldness */
-    margin-bottom: 0.5em; /* Space below the title */
+    font-size: 3em; 
+    font-weight: bold; 
+    margin-bottom: 0.5em; 
 }
 
 .event-description {
-    font-size: 1.2em; /* Slightly larger than normal text */
-    font-weight: 400; /* Regular boldness */
-    font-style: italic; /* Italics for emphasis */
-    margin: 1em 0; /* Space around the description */
+    font-size: 1.2em; 
+    font-weight: 400; 
+    font-style: italic; 
+    margin: 1em 0; 
 }
 
 .label {
-    font-size: 1.2em; /* Larger size for labels */
-    font-weight: 600; /* Boldness for labels */
-    margin-top: 0.5em; /* Space above labels */
+    font-size: 1.2em; 
+    font-weight: 600; 
+    margin-top: 0.5em; 
 }
 
 .input-field {
-    font-size: 1.1em; /* Regular size for inputs */
-    padding: 0.3em; /* Padding for better touch targets */
-    width: 100%; /* Full width for inputs */
-    margin-bottom: 1em; /* Space below inputs */
+    font-size: 1.1em; 
+    padding: 0.3em; 
+    width: 100%; 
+    margin-bottom: 1em; 
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    color: #6c757de1; /* Gray color for text */
+    color: #6c757de1; /* Gray */
 }
 
 strong {
-    font-weight: bold; /* Ensure strong tags are bold */
+    font-weight: bold; 
 }
 
 #volunteer-list{
@@ -86,7 +86,7 @@ margin-right: 20px;
 }
 
 .button-margin {
-    margin-right: 30px; /* Adjust this value as needed */
+    margin-right: 30px; 
 }
 
 .title-and-share-buttons-container{
