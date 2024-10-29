@@ -10,7 +10,6 @@
 
 .delete-container p{
     font-size: 1.2em;
-
     padding-bottom: 5px;
 }
 
@@ -31,7 +30,6 @@
 }
 
 .delete-container #delete-alert-msg{
-  
     color: #f40b23;
 }
 .delete-container h2 {
