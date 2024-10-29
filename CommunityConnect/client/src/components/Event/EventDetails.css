@@ -99,4 +99,3 @@ justify-content: space-between;
     display: flex; /* Use flexbox for horizontal alignment NEEDED FOR GAP*/
     gap: 10px; /* This will add space between each button */
 }
-
