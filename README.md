@@ -1,7 +1,7 @@
-
-<div style="display: flex; justify-content: center; align-items: center; margin-left: 50;">
+<p align="center">
     <img src="CommunityConnect/wwwroot/assets/images/cclogo3.png" alt="Community Connect Logo" />
-</div>
+</p>
+
 
 
 ## Overview
