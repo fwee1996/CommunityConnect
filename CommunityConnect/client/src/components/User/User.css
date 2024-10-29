@@ -1,18 +1,11 @@
-.user-profile{
-    
+.user-profile{  
     margin-top: 100px;
-   
     width: 100vw !important;
     height: 100vh !important;
     display: flex;
-  
-    /* box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.2); */
-    /* overflow: hidden;  */
-    /* transition: box-shadow 0.3s ease;  */
-    /* border-radius: 20px; Rounded corners */
-
     flex-direction: column;
 }
+
 .user-img-and-info{
     /* background-color: #efe2ba; */
     background-color:#c5cbe33a;
@@ -25,51 +18,25 @@
     /* border:2px solid coral; */
     height: 50%;
     background-image: url('../../images/4857721 - Copy.jpg'); 
-background-size: cover; /* Make the image cover the entire container */
-background-position:   center; /* Center the image */
-/* background-position: 20px 50px;--- move image in container 20px from the left, 30px from the top */
-background-repeat: no-repeat; /* Prevent the image from repeating */
-
-
+    background-size: cover; /* Make the image cover the entire container */
+    background-position:   center; 
+    background-repeat: no-repeat; 
 }
-
-
-/* Center: background-position: center;
-Top Left: background-position: top left;
-Bottom Right: background-position: bottom right;
-Custom Position: Combine keywords (e.g., background-position: top 20px left 30px;). */
-
-#user-img{
-    height: 40vh;
-    border-radius: 50%;
-    border: 5px solid white;
-    margin-left: 50px;
-    width:40vh;
-}
-
-/* .user-info{
-    margin-top: 2em;
-} */
-
-/* .user-details p {
-    font-size: 16px; 
-    margin: 5px 0;
-} */
 
 .user-details strong {
-    font-family: 'Georgia', sans-serif; /* Change to your desired font */
-    font-weight: 600; /* Adjust boldness if needed */
-    color: #333; /* Dark color for labels */
-    font-size: 1.2em; /* Larger size for labels */
-    font-weight: 600; /* Boldness for labels */
-    margin-top: 1em; /* Space above labels */
-    margin-bottom: 5em !important; /* Space above labels */
+    font-family: 'Georgia', sans-serif;
+    font-weight: 600; 
+    color: #333; 
+    font-size: 1.2em; 
+    font-weight: 600; 
+    margin-top: 1em; 
+    margin-bottom: 5em !important; 
     border:2px solid coral;
 }
 
 .user-details span {
-    font-family: 'Montserrat', sans-serif; /* Regular text font */
-    color: #555; /* A lighter color for values */
+    font-family: 'Montserrat', sans-serif; 
+    color: #555; 
 }
 
 #user-name{
@@ -79,22 +46,16 @@ Custom Position: Combine keywords (e.g., background-position: top 20px left 30px
     margin-bottom: 10px;
 }
 
-
 .my-profile-event-list {
     margin-top: 0 !important;
     width:100vw;
-    background-color: rgba(240, 255, 255, 0.1); /* Light background for better visibility */
+    background-color: rgba(240, 255, 255, 0.1); 
     background-color:  #f9f9f9;
     padding-top: 80px;
 }
 
-
-
-
-
 .tabs {
     display: flex;
-    /* justify-content: space-around; */
     margin:0 !important;
 }
 
@@ -116,7 +77,6 @@ Custom Position: Combine keywords (e.g., background-position: top 20px left 30px
 .tabs .active {
     background-color: #7e8995; /* Active tab color */
     color: white; /* Text color for active tab */
-
 }
 
 .tabs button:not(.active) {
@@ -139,10 +99,9 @@ h3{
 }
 
 .user-details p{
-
-font-size:1.2em;
+    font-size:1.2em;
 }
 
 .icon-light {
-    opacity: 0.5; /* Adjust the value as needed */
+    opacity: 0.5; 
 }
