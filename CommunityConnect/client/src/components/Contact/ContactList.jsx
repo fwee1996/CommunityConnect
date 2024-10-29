@@ -53,7 +53,7 @@ export default function ContactList() {
     <div className="contact-list-container" >
     <div id="container-contact">
     <div  id="all-contact">
-        {/* make event name clickable to go back to event details */}
+        {/* Make event name clickable to go back to event details */}
         <h1 className="p-4"> All Contact Forms for 
             <Link 
                   to={`/events/${eventId}`} 
