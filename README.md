@@ -1,5 +1,5 @@
 
-<div style="display: flex; justify-content: center; align-items: center">
+<div style="display: flex; justify-content: center; align-items: center; margin-left: 50em;">
     <img src="CommunityConnect/wwwroot/assets/images/cclogo3.png" alt="Community Connect Logo" />
 </div>
 
