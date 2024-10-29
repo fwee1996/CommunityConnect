@@ -11,7 +11,7 @@ export default function VolunteerForm() {
   const [comment, setComment] = useState("");
   const [eventName, setEventName] = useState("");
   const [organizerName, setOrganizerName] = useState("");
-  const [organizerUserId, setOrganizerUserId] = useState(null); // use null instead of "" if its userId, not user input
+  const [organizerUserId, setOrganizerUserId] = useState(null); // Use null instead of "" if its userId, not user input
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -29,9 +29,9 @@ export default function VolunteerForm() {
 
     const userProfile = JSON.parse(localStorage.getItem("userProfile"));
 
-    //for notification msg to have "(volunteer name) has signed up..""
-    //use variable dont need to set state
-    const volunteerName= userProfile.fullName; // use a local variable instead of just setVolunteerName(userProfile.fullName) bcs state may not be immediately updated when you try to use it
+    // For notification msg to have "(volunteer name) has signed up..""
+    // Use variable dont need to set state
+    const volunteerName= userProfile.fullName; // Use a local variable instead of just setVolunteerName(userProfile.fullName) bcs state may not be immediately updated when you try to use it
     
     const newVolunteerForm = {
       signupDate: new Date().toISOString(),
@@ -40,8 +40,8 @@ export default function VolunteerForm() {
       userId: userProfile.id
     };
 
-    //summary of where i get params:
-    //userId from local storage "userProfile", eventId from Url, the rest from state set at the start const[...]=useState() 
+    // Summary of where i get params:
+    // userId from local storage "userProfile", eventId from Url, the rest from state set at the start const[...]=useState() 
 
     await AddVolunteer(newVolunteerForm);
 
