@@ -1,108 +1,9 @@
-// import React, { useState, useEffect } from 'react';
-// import { GetEventById } from '../../services/EventService';
-// import { Link, useParams } from 'react-router-dom';
-// import './Event.css';
-// import { EditPencil, TrashcanDelete } from "../../Icons";
-// import { EventImage } from './eventImage';
-
-
-// const EventDetails = () => {
-//     const { id } = useParams();
-//     const [event, setEvent] = useState(null);
-//     const userProfile = JSON.parse(localStorage.getItem("userProfile")); // Get logged-in user profile
-
-//     useEffect(() => {
-//         fetchEventDetails();
-//     }, [id]);
-
-//     const fetchEventDetails = async () => {
-//         const eventData = await GetEventById(id);
-//         setEvent(eventData);
-//     };
-
-//     if (!event) return <div>Loading...</div>;
-
-//     // Check if the logged-in user is the creator of the event
-//     const isCreator = event.userId === userProfile.id;
-
-
-//     return (
-//         <div className="event-details">
-//             {event.eventPicture ? (
-//         <img 
-//         src={`https://localhost:5001/${event.eventPicture}`} 
-//         style={{ width: "150px", height: "150px" }}
-//           />
-//       ) : (
-//         <img style={{ width: "150px", height: "150px" }}/>
-//       )
-//     } 
-//     {/* {`https://localhost:5001/${event.eventPicture}`}  */}
-   
-//             <h1>{event.name}</h1>
-//             {/* <img src={event.eventPicture} alt={event.name} /> */}
-//             <img src={event.eventPicture} alt={event.name} />
-//             <p>{event.description}</p>
-//             <p>Date: {new Date(event.eventDate).toLocaleDateString()}</p>
-//             <p>Time: {`${event.startTime} - ${event.endTime}`}</p>
-//             <p>Location: {event.city}, {event.state}</p>
-//             <p>Volunteers Needed: {event.numVolunteersNeeded}</p>
-//             <p>Volunteer Duties: {event.volunteersDuties || 'N/A'}</p>
-
-//             {!isCreator && (
-//                 <>
-//             <Link to={`/events/${event.id}/volunteer`} className="btn btn-primary">
-//                 Get Involved!
-//             </Link>
-//             <Link to={`/events/${event.id}/contact-organizer`} className="btn btn-primary">
-//                 Contact Organizer
-//             </Link>
-//             </>
-//             )}
-//             {/* <Link to={`/events/${event.id}/edit`} className="btn btn-outline-primary mx-1 text-primary" title="Edit Comment">
-//             <EditPencil size={20} />
-//             </Link>
-//             <Link to={`/events/${event.id}/delete`} className="btn btn-outline-danger mx-1" title="Delete Comment">
-//             <TrashcanDelete color="#b91c1c" size={20} />
-//             </Link> */}
-//             {/* Conditionally render edit and delete buttons if the user is the creator */}
-//             {isCreator && (
-//                 <>
-//                     <Link to={`/volunteers/${event.id}`} className="btn btn-primary">
-//                     View Volunteers
-//                     </Link>
-//                     <Link to={`/contact-forms/${event.id}`} className="btn btn-primary">
-//                         View Contact Forms
-//                     </Link>
-//                     <Link to={`/events/${event.id}/edit`} className="btn btn-outline-primary mx-1 text-primary" title="Edit Event">
-//                         <EditPencil size={20} />
-//                     </Link>
-//                     <Link to={`/events/${event.id}/delete`} className="btn btn-outline-danger mx-1" title="Delete Event">
-//                         <TrashcanDelete color="#b91c1c" size={20} />
-//                     </Link>
-//                 </>
-//             )}
-
-//         </div>
-//     );
-// };
-
-// export default EventDetails;
-
-
-
-
-
-
-
-
-//this works:
 import React, { useState, useEffect } from 'react';
 import { GetEventById } from '../../services/EventService';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import './Event.css';
 import { EditPencil, TrashcanDelete } from "../../Icons";
-import { GetVolunteersByEventId } from '../../services/VolunteerService'; // To check if user already signed up for event!
+import { GetVolunteersByEventId } from '../../services/VolunteerService'; // To check if user already signed up for event
 import './EventDetails.css';
 import { Label } from 'reactstrap';
 import { FacebookShareButton, TwitterShareButton, EmailShareButton, FacebookIcon, TwitterIcon, EmailIcon } from 'react-share';
@@ -110,10 +11,10 @@ import { FacebookShareButton, TwitterShareButton, EmailShareButton, FacebookIcon
 const EventDetails = () => {
     const { id } = useParams();
     const [event, setEvent] = useState(null);
-    const [isSignedUp, setIsSignedUp] = useState(false);// To check if user already signed up for event!
+    const [isSignedUp, setIsSignedUp] = useState(false);// To check if user already signed up for event
     const navigate = useNavigate();
     const userProfile = JSON.parse(localStorage.getItem("userProfile"));
-    const [isLoggedIn, setIsLoggedIn] = useState(false); //added: This state tracks if a user is logged in based on the presence of userProfile. So that non-logged in users can access details
+    const [isLoggedIn, setIsLoggedIn] = useState(false); // Track if user is logged in based on the presence of userProfile so that non-logged in users can access details.
     
 
     useEffect(() => {
@@ -141,7 +42,7 @@ const EventDetails = () => {
     };
 
 
-    //added: for non logged in user to see details too -- !!userProfile is true! vs userProfile is whole object whereas we want T/F value for setIsLoggedIn
+    // For non logged in user to see details too -- !!userProfile is true! vs userProfile is whole object whereas we want T/F value for setIsLoggedIn
     const checkLoginStatus = () => {
         setIsLoggedIn(!!userProfile);
     };
@@ -155,12 +56,12 @@ const EventDetails = () => {
         if (isSignedUp) {
             alert("You have already signed up for this event."); // Show popup if already signed up
         } else {
-            navigate(`/events/${event.id}/volunteer`); //go to volunteer form to confirm sign up
+            navigate(`/events/${event.id}/volunteer`); // Go to volunteer form to confirm sign up
         }
     };
 
 
-    //added this so non logged in user gets msg that they cant contact org
+    // For non logged in user gets msg that they cant contact org
     const handleContactClick = () => {
         if (!isLoggedIn) {
             alert("You must be logged in to perform this action.");
@@ -173,12 +74,12 @@ const EventDetails = () => {
 
     if (!event) return <div>Loading...</div>;
 
-    //added ? so non logged in user can see details too
+    // For non logged in user can see details too
     const isCreator = event.userId === userProfile?.id; //for rendering edit and delete only for creator
 
 
 
-    //to get Wednesday, Oct 24 for this year, and Wednesday, Oct 24 2025 for next year
+    // To get Wednesday, Oct 24 for this year, and Wednesday, Oct 24 2025 for next year
     const formatDate = (eventDate) => {
         const date = new Date(eventDate); // Create a Date object from the event date
         const currentYear = new Date().getFullYear(); // Get the current year
@@ -227,7 +128,7 @@ const EventDetails = () => {
     };
 
 
-    //share url:
+    // Share url:
     const shareUrl = `https://localhost:5173/events/${event.id}`;
     
     return (
@@ -295,8 +196,6 @@ const EventDetails = () => {
     <label htmlFor="duties" className="label"><strong>Volunteer Duties:</strong></label>
     <p id="duties" className="input-field">{event.volunteersDuties || 'N/A'}</p>
 
-  
-
     {/* Action Buttons -Edit/Delete*/}
             {!isCreator && (
                 <>
@@ -323,12 +222,7 @@ const EventDetails = () => {
                         <TrashcanDelete color="#b91c1c" size={20} />
                     </Link>
                 </>
-            )}
-
-
-       
-
-         
+            )}         
         </div>
     </div>
     );
