@@ -16,7 +16,6 @@ export default function Authorize({setIsLoggedIn}) {
          <Route path="*" element={<Navigate to="/events" />} />
          <Route path="/events" element={<EventList />}/>
          <Route path="/events/:id" element={<EventDetails />} />
-         
          </Routes>
       );
     
