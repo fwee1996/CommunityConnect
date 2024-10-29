@@ -90,9 +90,9 @@ margin-right: 20px;
 }
 
 .title-and-share-buttons-container{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .share-buttons {
