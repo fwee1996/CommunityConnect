@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CommunityConnect")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c86719ff0f3ea681a563ca242f57f505b20307e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d87dbc57297ed5598e48d55c531883d8678fc9b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("CommunityConnect")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CommunityConnect")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

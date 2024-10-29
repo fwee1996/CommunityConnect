@@ -2530,11 +2530,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\CommunityConnect.csproj",
+      "projectUniqueName": "C:\\Users\\user\\workspace\\c9\\CommunityConnect\\CommunityConnect\\CommunityConnect\\CommunityConnect.csproj",
       "projectName": "CommunityConnect",
-      "projectPath": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\CommunityConnect.csproj",
+      "projectPath": "C:\\Users\\user\\workspace\\c9\\CommunityConnect\\CommunityConnect\\CommunityConnect\\CommunityConnect.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\workspace\\c9\\newtest\\CommunityConnect\\CommunityConnect\\obj\\",
+      "outputPath": "C:\\Users\\user\\workspace\\c9\\CommunityConnect\\CommunityConnect\\CommunityConnect\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

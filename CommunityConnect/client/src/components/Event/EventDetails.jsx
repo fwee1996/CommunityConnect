@@ -105,6 +105,8 @@ import { EditPencil, TrashcanDelete } from "../../Icons";
 import { GetVolunteersByEventId } from '../../services/VolunteerService'; // To check if user already signed up for event!
 import './EventDetails.css';
 import { Label } from 'reactstrap';
+import { FacebookShareButton, TwitterShareButton, EmailShareButton, FacebookIcon, TwitterIcon, EmailIcon } from 'react-share';
+
 const EventDetails = () => {
     const { id } = useParams();
     const [event, setEvent] = useState(null);
@@ -139,7 +141,7 @@ const EventDetails = () => {
     };
 
 
-    //added: for non logged in user to see details too
+    //added: for non logged in user to see details too -- !!userProfile is true! vs userProfile is whole object whereas we want T/F value for setIsLoggedIn
     const checkLoginStatus = () => {
         setIsLoggedIn(!!userProfile);
     };
@@ -153,7 +155,7 @@ const EventDetails = () => {
         if (isSignedUp) {
             alert("You have already signed up for this event."); // Show popup if already signed up
         } else {
-            navigate(`/events/${event.id}/volunteer`);
+            navigate(`/events/${event.id}/volunteer`); //go to volunteer form to confirm sign up
         }
     };
 
@@ -225,6 +227,8 @@ const EventDetails = () => {
     };
 
 
+    //share url:
+    const shareUrl = `https://localhost:5173/events/${event.id}`;
     
     return (
         <div className="event-details">
@@ -243,7 +247,27 @@ const EventDetails = () => {
                 <div className="event-details-content">
                 {/* <p>{new Date(event.eventDate).toLocaleDateString()}</p> */}
                 <p className="event-date">{formatDate(event.eventDate)}</p>
+
+        {/* Share Buttons */}
+        <div className="title-and-share-buttons-container">
     <h1 className="event-title">{event.name}</h1>
+    <div className="share-buttons">
+                    {/* <h3>Share this event:</h3> */}
+                    <FacebookShareButton url={shareUrl}>
+                        <FacebookIcon size={32} round />
+                    </FacebookShareButton>
+                    {/* <WhatsAppShareButton url={shareUrl}>
+                        <WhatsAppIcon size={32} round />
+                    </WhatsAppShareButton> */}
+                    <TwitterShareButton url={shareUrl}>
+                        <TwitterIcon size={32} round />
+                    </TwitterShareButton>
+                    <EmailShareButton url={shareUrl} subject={event.name} body={`Check out this event:`}>
+                        <EmailIcon size={32} round />
+                    </EmailShareButton>
+                </div>
+                </div>
+
     <p className="event-description">{event.description}</p>
     
     <label htmlFor="time" className="label"><strong>Time:</strong></label>
@@ -270,6 +294,10 @@ const EventDetails = () => {
     
     <label htmlFor="duties" className="label"><strong>Volunteer Duties:</strong></label>
     <p id="duties" className="input-field">{event.volunteersDuties || 'N/A'}</p>
+
+  
+
+    {/* Action Buttons -Edit/Delete*/}
             {!isCreator && (
                 <>
                     <button onClick={handleSignUpClick} className="btn btn-primary" id="get-involved">
@@ -296,6 +324,11 @@ const EventDetails = () => {
                     </Link>
                 </>
             )}
+
+
+       
+
+         
         </div>
     </div>
     );
