@@ -26,12 +26,14 @@ Users can log in or register as a new member.
 ![image](CommunityConnect/wwwroot/assets/images/register.png)
 
 ## Event Listings
-![image](CommunityConnect/wwwroot/assets/images/event-list.png)
 Users can browse a comprehensive list of upcoming volunteering events in their area, making it easy to find activities that resonate with their passions.
+![image](CommunityConnect/wwwroot/assets/images/event-list.png)
+
 
 ## Event Details
-![image](CommunityConnect/wwwroot/assets/images/event-details.png)
 Users can click on an event for more details, including the location, date, time, and other details.
+![image](CommunityConnect/wwwroot/assets/images/event-details.png)
+
 
 ## Edit an Event
 ![image](CommunityConnect/wwwroot/assets/images/edit-events.png)
