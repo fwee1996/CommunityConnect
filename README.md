@@ -3,7 +3,9 @@
 <!-- <img src="https://github.com/user-attachments/assets/aff4c6cf-3af2-489b-a258-ea61182c4073" width="300"> -->
   Community Connect
 </p>
-  ![image](CommunityConnect/wwwroot/assets/images/cclogo3.png)
+  ![image](https://github.com/fwee1996/CommunityConnect/blob/fw16-share-link/CommunityConnect/wwwroot/assets/images/cclogo3.png)
+
+  
 ## Overview
 
 In today’s increasingly remote work environment, many individuals find themselves grappling with feelings of isolation and disconnection from their communities. Community Connect is here to change that. This innovative app offers a seamless way to discover, participate in, and organize local volunteer and community events, empowering users to forge real connections and make a difference.
