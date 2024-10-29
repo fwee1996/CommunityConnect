@@ -57,6 +57,7 @@ Users can edit their events.<br>
 ![image](CommunityConnect/wwwroot/assets/images/edit-events.png)
 
 ## My Profile and Events
-Users can view and update their profile and they can view their oragnized, volunteer and past events.<br> 
+Users can view and update their profile and they can view events they have organized, are volunteering in and past events.<br> 
+<br>
 ![image](CommunityConnect/wwwroot/assets/images/profile.png)
 ![image](CommunityConnect/wwwroot/assets/images/my-events.png)
