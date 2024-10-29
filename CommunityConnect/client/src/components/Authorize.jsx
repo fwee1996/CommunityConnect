@@ -5,8 +5,6 @@ import Register from './Register'
 import EventList from "./Event/EventList";
 import EventDetails from "./Event/EventDetails";
 
-
-
 export default function Authorize({setIsLoggedIn}) {
 
     return(
