@@ -2,6 +2,7 @@
 <p align="center">
 <!-- <img src="https://github.com/user-attachments/assets/aff4c6cf-3af2-489b-a258-ea61182c4073" width="300"> -->
   Community Connect
+  ![image](assets/images/cclogo3.png)
 </p>
 
 ## Overview
@@ -32,22 +33,27 @@ Use the app to log in or register as a new member.
 ![image](assets/images/login.png)
 
 ## Event Listings
-![image]
+![image](assets/images/register.png)
 
 ## Event Details
-
+![image](assets/images/event-details.png)
 
 ## Edit an Event
-
+![image](assets/images/edit-events.png)
 
 ## Create an Event
-
+![image](assets/images/organize-event.png)
 
 ## Volunteer
-
+![image](assets/images/volunteer-list.png)
 
 ## Contact Organizer
+![image](assets/images/contact-list.png)
+
+## Notifications 
+![image](assets/images/notifications.png)
 
 
 ## My Profile and Events
-
+![image](assets/images/profile.png)
+![image](assets/images/my-events.png)
