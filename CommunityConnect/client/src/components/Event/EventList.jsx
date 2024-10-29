@@ -1,159 +1,3 @@
-// import React, { useState, useEffect } from 'react';
-// import { GetAllEvents } from '../../services/EventService';
-// import { useNavigate } from 'react-router-dom';
-// import './Event.css';
-// import { GetUserById } from '../../services/UserService';
-
-// const EventList = () => {
-//     const [events, setEvents] = useState([]);
-//     const navigate = useNavigate();
-//     const [searchTerm, setSearchTerm] = useState(''); // Search filter
-//     const [locationFilter, setLocationFilter] = useState('');
-//     const [cityFilter, setCityFilter] = useState('');
-//     const [stateFilter, setStateFilter] = useState('');
-//     const [nearbyEvents, setNearbyEvents] = useState(false);
-
-//     useEffect(() => {
-//         GetAllEvents().then(allEvents => {
-//             const eventsWithOrganizers = allEvents.map(event => {
-//                 return GetUserById(event.userId).then(organizer => ({
-//                     ...event,
-//                     organizerName: organizer.fullName 
-//                 }));
-//             });
-//             return Promise.all(eventsWithOrganizers);
-//         }).then(eventsWithOrganizers => {
-//             setEvents(eventsWithOrganizers);
-//         });
-//     }, []);
-
-//     const handleEventClick = (id) => {
-//         navigate(`/events/${id}`);
-//     };
-
-
-//     // Filter events based on search term that includes name, description and
-//     // To filter by any combination of fields: city only, state only, both, or neither: ---return true:
-//     const filteredEvents = events.filter(event => {
-//         // Get user profile data from local storage
-//         const userProfile = JSON.parse(localStorage.getItem("userProfile"));
-
-
-//     // Check if the event date and time are in the future
-//     const isUpcoming = new Date(`${event.eventDate.split('T')[0]} ${event.startTime}`) >= new Date();
-
-//     // Check if the event matches the search term in its name or description
-//     const matchesSearch = searchTerm 
-//         ? event.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
-//         event.description.toLowerCase().includes(searchTerm.toLowerCase())
-//         : true; // If no search term, consider it true
-                        
-//     // Check if the event's city matches the city filter, if provided
-//     const matchesCity = cityFilter 
-//         ? event.city.toLowerCase() === cityFilter.toLowerCase() 
-//         : true; // If no city filter, consider it true
-                        
-//     // Check if the event's state matches the state filter, if provided
-//     const matchesState = stateFilter 
-//         ? event.state.toLowerCase() === stateFilter.toLowerCase() 
-//         : true; // If no state filter, consider it true
-                        
-//     // Check if the event is marked as "Nearby" based on user's city and state
-//     const matchesNearby = nearbyEvents 
-//         ? event.city.toLowerCase() === userProfile.city.toLowerCase() && 
-//         event.state.toLowerCase() === userProfile.state.toLowerCase()
-//         : true; // If not looking for nearby events, consider it true
-                        
-//     // Return true if all conditions are met
-//     return isUpcoming && matchesSearch && matchesCity && matchesState && matchesNearby;
-//         });
-        
-//     return (
-//         <div className="event-list">
-//             {/* Search Input */}
-//             <input
-//                 type="text"
-//                 placeholder="Search events..."
-//                 value={searchTerm}
-//                 onChange={(e) => setSearchTerm(e.target.value)} // Update search term on input change
-//             />
-            
-//             {/* city Filter */}
-//             <input
-//                 type="text"
-//                 placeholder="Filter by city..."
-//                 value={cityFilter}
-//                 onChange={(e) => setCityFilter(e.target.value)} // Update location filter on input change
-//             />
-
-//             <input
-//                 type="text"
-//                 placeholder="Filter by state..."
-//                 value={stateFilter}
-//                 onChange={(e) => setStateFilter(e.target.value)}
-//             />
-//             <label>
-//                 <input
-//                     type="checkbox"
-//                     checked={nearbyEvents}
-//                     onChange={() => setNearbyEvents(!nearbyEvents)} // Toggle nearby events
-//                 />
-//                 Nearby Events
-//             </label>
-
-//             {/* instead of events.map its filteredEvents.map */}
-//             {/* //filteredEvents? */}
-//             {filteredEvents.map(event => (
-//                 <div className="event-card" key={event.id} onClick={() => handleEventClick(event.id)}>
-//                     {/* since this is working fetching from backend works fine */}
-//                     <img src={event.eventPicture ? `https://localhost:5001/${event.eventPicture}` : "path/to/default/image.jpg"} alt={event.name} />
-//                     <h3>{event.name}</h3>
-//                     <p>Date: {new Date(event.eventDate).toLocaleDateString()}</p>
-//                     <p>Time: {`${event.startTime} - ${event.endTime}`}</p>
-//                     <p>Organizer: {event.organizerName}</p>
-//                 </div>
-//             ))}
-            
-//         </div>
-//     );
-// };
-
-// export default EventList;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//this works:
 import React, { useState, useEffect } from 'react';
 import { GetAllEvents } from '../../services/EventService';
 import { useNavigate } from 'react-router-dom';
@@ -176,7 +20,6 @@ const EventList = () => {
                     ...event,
                     organizerName: organizer.fullName,
                     organizerImage: organizer.profileImage
-
                 }));
             });
             return Promise.all(eventsWithOrganizers);
@@ -193,9 +36,9 @@ const EventList = () => {
         const userProfile = JSON.parse(localStorage.getItem("userProfile"));
         const isUpcoming = new Date(`${event.eventDate.split('T')[0]} ${event.startTime}`) >= new Date();
         const matchesSearch = searchTerm ? event.name.toLowerCase().includes(searchTerm.toLowerCase()) || event.description.toLowerCase().includes(searchTerm.toLowerCase()) : true;
-        //exact match search (===)
-        //const matchesCity = cityFilter? event.city.toLowerCase() === cityFilter.toLowerCase() : true;
-        //partial match search "city filtering" so when i type "hun" matches appear for huntington: (.includes)
+        // Exact match search (===)
+        // Const matchesCity = cityFilter? event.city.toLowerCase() === cityFilter.toLowerCase() : true;
+        // Partial match search "city filtering" so when i type "hun" matches appear for huntington: (.includes)
         const matchesCity = cityFilter
         ? event.city.toLowerCase().includes(cityFilter.toLowerCase()) // Change equality to includes for partial matches
         : true;
