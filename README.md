@@ -30,30 +30,30 @@ https://www.youtube.com/watch?v=tos8GW5djYU
 ## User Authentication
 Use the app to log in or register as a new member.
 
-![image](assets/images/login.png)
+![image](CommunityConnect/wwwroot/assets/images/login.png)
 
 ## Event Listings
-![image](assets/images/register.png)
+![image](CommunityConnect/wwwroot/assets/images/register.png)
 
 ## Event Details
-![image](assets/images/event-details.png)
+![image](CommunityConnect/wwwroot/assets/images/event-details.png)
 
 ## Edit an Event
-![image](assets/images/edit-events.png)
+![image](CommunityConnect/wwwroot/assets/images/edit-events.png)
 
 ## Create an Event
-![image](assets/images/organize-event.png)
+![image](CommunityConnect/wwwroot/assets/images/organize-event.png)
 
 ## Volunteer
-![image](assets/images/volunteer-list.png)
+![image](CommunityConnect/wwwroot/assets/images/volunteer-list.png)
 
 ## Contact Organizer
-![image](assets/images/contact-list.png)
+![image](CommunityConnect/wwwroot/assets/images/contact-list.png)
 
 ## Notifications 
-![image](assets/images/notifications.png)
+![image](CommunityConnect/wwwroot/assets/images/notifications.png)
 
 
 ## My Profile and Events
-![image](assets/images/profile.png)
-![image](assets/images/my-events.png)
+![image](CommunityConnect/wwwroot/assets/images/profile.png)
+![image](CommunityConnect/wwwroot/assets/images/my-events.png)
